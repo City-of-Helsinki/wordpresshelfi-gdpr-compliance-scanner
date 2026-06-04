@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-06-04T08:07:19.056Z",
+    "summary": {
+      "total": 88,
+      "compliant": 62,
+      "nonCompliant": 26,
+      "warnings": 0,
+      "urls": 6,
+      "failedUrls": 0,
+      "timing": "1m 49.79s",
+      "siteSettingsFlat": 33
+    },
+    "filename": "report-wordpressohjeet-2026-06-04T08:07:19.056Z.json"
+  }
+]
