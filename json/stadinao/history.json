@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-09-14T07:35:17.606Z",
+    "summary": {
+      "total": 37,
+      "compliant": 31,
+      "nonCompliant": 6,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "1m 3.34s",
+      "siteSettingsFlat": 69
+    },
+    "filename": "report-stadinao-2026-09-14T07:35:17.606Z.json"
+  }
+]

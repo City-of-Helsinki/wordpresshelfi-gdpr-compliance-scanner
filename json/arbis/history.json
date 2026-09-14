@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-09-14T07:34:13.258Z",
+    "summary": {
+      "total": 27,
+      "compliant": 27,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "46.447s",
+      "siteSettingsFlat": 107
+    },
+    "filename": "report-arbis-2026-09-14T07:34:13.258Z.json"
+  }
+]
