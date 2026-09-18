@@ -1,0 +1,4841 @@
+{
+  "timeStamp": "2026-09-18T04:26:52.530Z",
+  "summary": {
+    "total": 24,
+    "compliant": 24,
+    "nonCompliant": 0,
+    "warnings": 0,
+    "urls": 3,
+    "failedUrls": 0,
+    "timing": "44.341s",
+    "siteSettingsFlat": 73
+  },
+  "config": {
+    "mainUrl": "https://tyovaenopisto.hel.fi",
+    "settingsDomainSubstitution": "https://tyovaenopisto.hel.fi",
+    "apiUrl": "https://tyovaenopisto.hel.fi/wp-json/helfi-cookie-consent/v1/settings?cacheBuster=1789705568186",
+    "urls": [
+      {
+        "only": false,
+        "nameBase": "Frontpage",
+        "url": "https://tyovaenopisto.hel.fi",
+        "actions": [],
+        "variants": [
+          "none",
+          "required",
+          "all"
+        ],
+        "headless": true,
+        "pause": false
+      }
+    ]
+  },
+  "groupHashes": {
+    "functional": {
+      "checksum": "2613114d",
+      "timestamp": 1789705570783
+    },
+    "statistics": {
+      "checksum": "b626a9f9",
+      "timestamp": 1789705570783
+    },
+    "unknown": {
+      "checksum": "31b780a3",
+      "timestamp": 1789705570783
+    },
+    "preferences": {
+      "checksum": "5aeb9a73",
+      "timestamp": 1789705570783
+    }
+  },
+  "groupSettings": [
+    {
+      "groupId": "functional",
+      "required": true,
+      "cookies": [
+        {
+          "name": "wpEmojiSettingsSupports",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "session"
+        },
+        {
+          "name": "cmplz_functional",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_statistics",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "helfi-lb",
+          "host": ".hel.fi",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "helfi-cookie-consents",
+          "host": "HDS CookieConsent",
+          "storageType": 1,
+          "expiration": "100 days"
+        },
+        {
+          "name": "wordpress_test_cookie",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "wp-postpass_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "10 days"
+        },
+        {
+          "name": "wp_lang",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "wordpress_logged_in_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "-"
+        },
+        {
+          "name": "wordpress_sec_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "-"
+        },
+        {
+          "name": "wp-api-schema-model",
+          "host": "WordPress",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "WP_DATA_USER_*",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "WP_PREFERENCES_USER_*",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "wp-settings-time-*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "wp-settings-*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "wp-autosave-*",
+          "host": "WordPress",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "wp-saving-post",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 day"
+        },
+        {
+          "name": "cmplz_marketing",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_preferences",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_unknown",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_policy_id",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_banner-status",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "pll_language",
+          "host": "Polylang",
+          "storageType": 1,
+          "expiration": "-"
+        },
+        {
+          "name": "mtm_cookie_consent",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "helsinkiAccordionExitPanel",
+          "host": "WordPress Helsinki",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "helsinkiAccordionOpenPanels",
+          "host": "WordPress Helsinki",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "helsinki_notification_*",
+          "host": "Helsinkiteema",
+          "storageType": 2,
+          "expiration": "-"
+        }
+      ]
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "cookies": [
+        {
+          "name": "_pk_id*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "13 months"
+        },
+        {
+          "name": "_pk_ses*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "session"
+        },
+        {
+          "name": "_pk_id.*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "393 days"
+        },
+        {
+          "name": "_pk_ses.*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "1 hour"
+        },
+        {
+          "name": "rnsbid",
+          "host": "Askem",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "rnsbid_ts",
+          "host": "Askem",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "rns_reaction_*",
+          "host": "Askem",
+          "storageType": 2,
+          "expiration": "-"
+        }
+      ]
+    },
+    {
+      "groupId": "unknown",
+      "required": false,
+      "cookies": [
+        {
+          "name": "_js_datr",
+          "host": "Facebook",
+          "storageType": 1,
+          "expiration": ""
+        }
+      ]
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "cookies": [
+        {
+          "name": "iframe: httpskartta.hel.fi.SWCulture",
+          "host": "kartta.hel.fi",
+          "storageType": 1,
+          "expiration": "1826 days"
+        },
+        {
+          "name": "iframe: httpskartta.hel.fi.SWProfile",
+          "host": "kartta.hel.fi",
+          "storageType": 1,
+          "expiration": "400 days"
+        },
+        {
+          "name": "iframe: cb-enabled",
+          "host": "kartta.hel.fi",
+          "storageType": 1,
+          "expiration": "400 days"
+        },
+        {
+          "name": "iframe: louhi-cookie-bar-enabled",
+          "host": "kartta.hel.fi",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "iframe: LOUHI-ASP-XSRF-TOKEN",
+          "host": "kartta.hel.fi",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: ``",
+          "host": "app.powerbi.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: AI_buffer_1",
+          "host": "app.powerbi.com",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: AI_sentBuffer_1",
+          "host": "app.powerbi.com",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: ai_session",
+          "host": "app.powerbi.com",
+          "storageType": 1,
+          "expiration": "30 minutes"
+        },
+        {
+          "name": "iframe: ai_user",
+          "host": "app.powerbi.com",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "iframe: ARRAffinitySameSite",
+          "host": "app.powerbi.com",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: GeocoderCache/objects",
+          "host": "app.powerbi.com",
+          "storageType": 4,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: manifests.artifacts",
+          "host": "app.powerbi.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: manifests.extensions",
+          "host": "app.powerbi.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: manifests.products",
+          "host": "app.powerbi.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: manifests.tabs",
+          "host": "app.powerbi.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: WFESessionId",
+          "host": "app.powerbi.com",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: COOKIE_SUPPORT",
+          "host": "suite.icareus.com",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "iframe: GUEST_LANGUAGE_ID",
+          "host": "suite.icareus.com",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "iframe: icareusDevice",
+          "host": "suite.icareus.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: JSESSIONID",
+          "host": "suite.icareus.com",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: rmpVolume",
+          "host": "suite.icareus.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "*-*",
+          "host": "www.youtube.com",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: iU5q-!O9@$",
+          "host": "www.youtube.com",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "LogsDatabaseV2:*",
+          "host": "www.youtube.com",
+          "storageType": 4,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: __Secure-ROLLOUT_TOKEN",
+          "host": "www.youtube.com",
+          "storageType": 1,
+          "expiration": "180 days"
+        },
+        {
+          "name": "iframe: __Secure-YNID",
+          "host": "www.youtube.com",
+          "storageType": 1,
+          "expiration": "180 days"
+        },
+        {
+          "name": "iframe: VISITOR_INFO1_LIVE",
+          "host": "www.youtube.com",
+          "storageType": 1,
+          "expiration": "180 days"
+        },
+        {
+          "name": "iframe: VISITOR_PRIVACY_METADATA",
+          "host": "www.youtube.com",
+          "storageType": 1,
+          "expiration": "180 days"
+        },
+        {
+          "name": "iframe: YSC",
+          "host": "www.youtube.com",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: yt-icons-last-purged",
+          "host": "www.youtube.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: yt-icons",
+          "host": "www.youtube.com",
+          "storageType": 5,
+          "expiration": "-"
+        },
+        {
+          "name": "yt-player-*",
+          "host": "www.youtube.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: yt-remote-connected-devices",
+          "host": "www.youtube.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: yt-remote-device-id",
+          "host": "www.youtube.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "yt-remote-*",
+          "host": "www.youtube.com",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "iframe: ytidb::LAST_RESULT_ENTRY_KEY",
+          "host": "www.youtube.com",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "iframe: YtIdbMeta/databases",
+          "host": "www.youtube.com",
+          "storageType": 4,
+          "expiration": "Session"
+        }
+      ]
+    }
+  ],
+  "siteSettings": {
+    "cookieName": "helfi-cookie-consents",
+    "fallbackLanguage": "en",
+    "groupsWhitelistedForApi": [
+      "functional",
+      "preferences",
+      "statistics",
+      "marketing"
+    ],
+    "languages": [
+      {
+        "code": "fi",
+        "name": "Finnish",
+        "direction": "ltr"
+      },
+      {
+        "code": "sv",
+        "name": "Swedish",
+        "direction": "ltr"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "direction": "ltr"
+      }
+    ],
+    "monitorInterval": 500,
+    "optionalGroups": [
+      {
+        "groupId": "statistics",
+        "title": {
+          "fi": "Tilastointi (anonyymi)",
+          "sv": "Statistik (anonym)",
+          "en": "Statistics (anonymous)"
+        },
+        "description": {
+          "fi": "Tilastointievästeiden keräämää tietoa käytetään verkkosivuston kehittämiseen.",
+          "sv": "De uppgifter statistikkakorna samlar in används för att utveckla webbplatsen.",
+          "en": "The information collected by statistics cookies is used for developing the website."
+        },
+        "cookies": [
+          {
+            "name": "_pk_id*",
+            "host": "Matomo",
+            "description": {
+              "fi": "store a unique user ID",
+              "sv": "store a unique user ID",
+              "en": "store a unique user ID"
+            },
+            "expiration": {
+              "fi": "13 months",
+              "sv": "13 months",
+              "en": "13 months"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_ses*",
+            "host": "Matomo",
+            "description": {
+              "fi": "store a unique session ID",
+              "sv": "store a unique session ID",
+              "en": "store a unique session ID"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_id.*",
+            "host": "Matomo",
+            "description": {
+              "fi": "Matomo-kävijäseurannan eväste kerää käyttäjätietoja, kuten käyttäjän uniikin kävijätiedon.",
+              "sv": "Matomo-statistiksystemets kaka samlar information om hur webbplatsen används.",
+              "en": "Matomo Analytics - used to store a few details about the user such as the unique visitor ID."
+            },
+            "expiration": {
+              "fi": "393 päivää",
+              "sv": "393 dagar",
+              "en": "393 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_ses.*",
+            "host": "Matomo",
+            "description": {
+              "fi": "Matomo-kävijäseurannan eväste yhdistää istunnon aikana suoritetut toiminnot (esim. sivun katselut, lataukset ja tapahtumat) yksittäiseen vierailuun.",
+              "sv": "Kakan för Matomo-besökaruppföljningen kopplar ihop aktiviteter som skett under en session (t.ex. sidvisningar, nedladdningar och aktiviteter) med ett enskilt besök.",
+              "en": "Matomo Analytics - Used to link actions performed during the session (e.g., page views, downloads, events) to a unique visit, thereby allowing Matomo to accurately attribute these actions to a single session."
+            },
+            "expiration": {
+              "fi": "1 tunti",
+              "sv": "1 timme",
+              "en": "1 hour"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "rnsbid",
+            "host": "Askem",
+            "description": {
+              "fi": "Askem-reaktionappien toimintaan liittyvä tietue.",
+              "sv": "En post relaterad till driften av reaktionsknappen Askem.",
+              "en": "A record related to the operation of the Askem react buttons."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "rnsbid_ts",
+            "host": "Askem",
+            "description": {
+              "fi": "Askem-reaktionappien toimintaan liittyvä tietue.",
+              "sv": "En post relaterad till driften av reaktionsknappen Askem.",
+              "en": "A record related to the operation of the Askem react buttons."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "rns_reaction_*",
+            "host": "Askem",
+            "description": {
+              "fi": "Askem-reaktionappien toimintaan liittyvä tietue.",
+              "sv": "En post relaterad till driften av reaktionsknappen Askem.",
+              "en": "A record related to the operation of the Askem react buttons."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          }
+        ]
+      },
+      {
+        "groupId": "unknown",
+        "title": {
+          "fi": "Tuntematon",
+          "sv": "Okänd",
+          "en": "Unknown"
+        },
+        "description": {
+          "fi": "",
+          "sv": "",
+          "en": ""
+        },
+        "cookies": [
+          {
+            "name": "_js_datr",
+            "host": "Facebook",
+            "description": {
+              "fi": "",
+              "sv": "",
+              "en": ""
+            },
+            "expiration": {
+              "fi": "",
+              "sv": "",
+              "en": ""
+            },
+            "storageType": 1
+          }
+        ]
+      },
+      {
+        "groupId": "preferences",
+        "title": {
+          "fi": "Personointi",
+          "sv": "Preferens",
+          "en": "Preferences"
+        },
+        "description": {
+          "fi": "Mieltymysevästeet mukauttavat sivuston ulkoasua ja toimintaa käyttäjän aiemman käytön perusteella.",
+          "sv": "Preferenscookies ändrar webbplatsens utseende och funktioner enligt användarens tidigare användning.",
+          "en": "Preference cookies modify the visuals and functions of the website based on the user's previous sessions."
+        },
+        "cookies": [
+          {
+            "name": "iframe: httpskartta.hel.fi.SWCulture",
+            "host": "kartta.hel.fi",
+            "description": {
+              "fi": "Kaupungin karttapalvelun evästeeseen tallennetaan kieli, jolla palvelua käytetään.",
+              "sv": "Kakan på stadens kaktjänst sparas det språk som användaren använder i tjänsten.",
+              "en": "The City's map service cookie saves the language in which the service is used."
+            },
+            "expiration": {
+              "fi": "1826 päivää",
+              "sv": "1826 dagar",
+              "en": "1826 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: httpskartta.hel.fi.SWProfile",
+            "host": "kartta.hel.fi",
+            "description": {
+              "fi": "Kaupungin karttapalvelun toiminnalle tarpeellinen eväste.",
+              "sv": "En cookie som är nödvändig för stadens karttjänst att fungera.",
+              "en": "A cookie necessary for the city's map service to function."
+            },
+            "expiration": {
+              "fi": "400 päivää",
+              "sv": "400 dagar",
+              "en": "400 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: cb-enabled",
+            "host": "kartta.hel.fi",
+            "description": {
+              "fi": "Kaupungin karttapalvelun evästeeseen tallennetaan tieto, onko käyttäjä hyväksynyt keksit.",
+              "sv": "Information om huruvida användaren har godkänt kakor lagras i stadens karttjänsts kaka.",
+              "en": "Information on whether the user has accepted cookies is stored in the city's map service cookie."
+            },
+            "expiration": {
+              "fi": "400 päivää",
+              "sv": "400 dagar",
+              "en": "400 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: louhi-cookie-bar-enabled",
+            "host": "kartta.hel.fi",
+            "description": {
+              "fi": "Kaupungin karttapalvelun evästeeseen tallennetaan tieto, onko käyttäjä hyväksynyt keksit.",
+              "sv": "Information om huruvida användaren har godkänt kakor lagras i stadens karttjänsts kaka.",
+              "en": "Information on whether the user has accepted cookies is stored in the city's map service cookie."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: LOUHI-ASP-XSRF-TOKEN",
+            "host": "kartta.hel.fi",
+            "description": {
+              "fi": "Kaupungin karttapalvelun toiminnalle tarpeellinen eväste.",
+              "sv": "En cookie som är nödvändig för stadens karttjänst att fungera.",
+              "en": "A cookie necessary for the city's map service to function."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: ``",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään välimuistin hallintaan ja versionhallintaan, jotta Power BI voi tallentaa ja käsitellä paikallisesti tietoja, kuten tallennettuja asetuksia tai välimuistissa olevia lataustietoja, jotka nopeuttavat käyttäjän kokemusta ja vähentävät palvelinpuolen kuormitusta.",
+              "sv": "Används för att hantera cacheminnet och versionen, så att Power BI kan spara och hantera information lokalt, såsom sparade inställningar eller nedladdningsuppgifter i cacheminnet, som gör användarens upplevelse snabbare och minskar belastningen på serversidan.",
+              "en": "Used for cache management and version control, allowing Power BI to locally store and process data such as saved settings or cached download information, which enhances the user experience and reduces server-side load."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: AI_buffer_1",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään käyttäjän toiminnan seuraamiseen ja tietojen väliaikaiseen tallentamiseen palvelinpuolen käsittelyä varten.",
+              "sv": "Används för att följa användarens aktivitet och tillfälligt spara uppgifter för serversidans behandling.",
+              "en": "Used to track user activity and temporarily store data for server-side processing."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "iframe: AI_sentBuffer_1",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Tallentaa lähetyspuskuritiedot käyttäjän toiminnasta, joita käytetään Power BI:n suorituskyvyn analysoinnissa ja ongelmien diagnosoimisessa.",
+              "sv": "Sparar överföringsbuffertuppgifter om användarens aktiviteter, som används för att analysera Power BI:s prestanda och diagnostisera problem.",
+              "en": "Stores transmission buffer data on user activity, which is used for Power BI performance analysis and issue diagnostics."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "iframe: ai_session",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään käyttäjän istuntotietojen seuraamiseen ja yksittäisten Power BI -istuntojen erottamiseen toisistaan. Tämä auttaa analysoimaan vierailujen määrää ja kestoa.",
+              "sv": "Används för att följa användarnas sessioner och skilja mellan enskilda Power BI-sessioner. Detta underlättar analysen av besökens antal och längd.",
+              "en": "Used to track the user's session data and differentiate individual Power BI sessions. This helps analyze the number and duration of visits."
+            },
+            "expiration": {
+              "fi": "30 minuuttia",
+              "sv": "30 minuter",
+              "en": "30 minutes"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: ai_user",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Tunnistaa käyttäjän yksilöllisesti, jotta toistuvat Power BI -vierailut voidaan yhdistää samaan käyttäjään pitkällä aikavälillä.",
+              "sv": "Identifierar en specifik användare, så att återkommande Power Bi-besök kan kopplas till samma användare över en längre tid.",
+              "en": "Identifies the user uniquely so that recurring Power BI visits can be associated with the same user over the long term."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: ARRAffinitySameSite",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään Power BI -palvelimen kuormantasaajassa varmistamaan, että käyttäjä ohjataan aina samaan palvelininstanssiin nykyisen istunnon aikana.",
+              "sv": "Används i Power BI-serverns belastningsutjämnare för att säkerställa att användaren alltid styrs till samma serverinstans under en session.",
+              "en": "Used in the Power BI server load balancer to ensure that the user is always directed to the same server instance during the current session."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: GeocoderCache/objects",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Tallentaa välimuistiin sijaintitietoja, kuten geokoodauskyselyitä, jotka nopeuttavat Power BI:n karttatoimintojen suorittamista.",
+              "sv": "Sparar positionsuppgifter i cacheminnet, till exempel geokodningsförfrågningar, som försnabbar Power BI:s kartfunktioner.",
+              "en": "Caches location data, such as geocoding queries, to speed up the performance of Power BI map features."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 4
+          },
+          {
+            "name": "iframe: manifests.artifacts",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään Power BI -sisältöön liittyvien osien, kuten raporttien ja visualisointien, lataamisprosessin hallintaan ja nopeuttamiseen.",
+              "sv": "Används för att administrera och försnabba laddningsprocessen för delar som anknyter till Power BI-innehåll, såsom rapporter och visualiseringar.",
+              "en": "Used to manage and speed up the loading process of Power BI content components, such as reports and visualizations."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: manifests.extensions",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Tallentaa Power BI -laajennuksista tietoja, joita käytetään käyttöliittymän mukauttamiseen tai lisäominaisuuksien tarjoamiseen.",
+              "sv": "Sparar information om Power BI-utvidgningar, som används för att anpassa användargränssnittet eller erbjuda tilläggsfunktioner.",
+              "en": "Stores data related to Power BI extensions, which are used to customize the user interface or provide additional features."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: manifests.products",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Sisältää tietoja eri tuotteiden tai palveluiden manifestoista, joita Power BI käyttää näyttääkseen oikeanlaista sisältöä.",
+              "sv": "Innehåller information om olika produkters eller tjänsters manifest, som Power BI använder för att visa rätt sorts innehåll.",
+              "en": "Contains information about the manifests of different products or services, which Power BI uses to display the correct content."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: manifests.tabs",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään hallinnoimaan ja esittämään erilaisia välilehtikohtaisia konfiguraatioita ja sisältöä Power BI -raporteissa.",
+              "sv": "Används för att administrera och visa olika flikspecifika konfigurationer och innehåll i Power BI-rapporter.",
+              "en": "Used to manage and display various tab-specific configurations and content in Power BI reports."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: WFESessionId",
+            "host": "app.powerbi.com",
+            "description": {
+              "fi": "Käytetään yksittäisen käyttäjän istunnon tunnistamiseen palvelinpuolen käsittelyä ja Power BI -sisällön näyttämistä varten.",
+              "sv": "Används för att identifiera en enskild användares session för serversidans behandling och visning av Power BI-innehåll.",
+              "en": "Used to identify a single user's session for server-side processing and displaying Power BI content."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: COOKIE_SUPPORT",
+            "host": "suite.icareus.com",
+            "description": {
+              "fi": "Mahdollistaa evästeiden hallinnan sivustolla.",
+              "sv": "Kakan möjliggör hanteringen av kakor på webbplatsen.",
+              "en": "The cookie facilitates managing cookies on the website."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: GUEST_LANGUAGE_ID",
+            "host": "suite.icareus.com",
+            "description": {
+              "fi": "Liferay on luonut tämän evästeen, joka tallentaa kieliasetukset.",
+              "sv": "Denna cookie genereras av Liferay, dess funktion är att lagra språkinställningarna.",
+              "en": "This cookie is generated by the Liferay, its function is to store the language preferences."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: icareusDevice",
+            "host": "suite.icareus.com",
+            "description": {
+              "fi": "Helsinki-kanavan videopalvelimen eväste.",
+              "sv": "Helsinki-kanavas kaka gör det möjligt att göra videor till en del av innehållet på webbplatsen.",
+              "en": "The Helsinki Channel video server cookie facilitates including videos as part of the website's content."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: JSESSIONID",
+            "host": "suite.icareus.com",
+            "description": {
+              "fi": "Sivuston pakollinen eväste mahdollistaa kävijän vierailun sivustolla.",
+              "sv": "Kakan är en obligatorisk kaka som gör det möjligt för besökaren att besöka webbplatsen.",
+              "en": "The cookie is an obligatory cookie that facilitates visiting the website."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: rmpVolume",
+            "host": "suite.icareus.com",
+            "description": {
+              "fi": "Helsinkikanava-videopalvelimen eväste. Käytetään tallentamaan käyttäjän tiedot siitä, onko videossa äänet päällä vai ei.",
+              "sv": "Kaka för videoservern Helsingforskanalen. Används för att spara användarens inställningar för om ljudet är aktiverat i videon eller inte.",
+              "en": "Helsinkikanava video server localStorage. Used to store the user's information about whether the sound is on or off in the video."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "*-*",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään istuntokohtaisiin tietoihin, kuten käyttäjän katselutilanteen seurantaan ja Youtube-asetusten ylläpitoon.",
+              "sv": "Används för sessionsspecifika uppgifter, exempelvis för att följa användarens visningssituation och upprätthålla YouTube-inställningar.",
+              "en": "Used for session-specific data, such as tracking the user's viewing status and maintaining YouTube settings."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "iframe: iU5q-!O9@$",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään tilapäiseen tietojen tallentamiseen istunnon aikana, esimerkiksi YouTube-toiston tai käyttäjän asetusten käsittelyyn.",
+              "sv": "Används för att tillfälligt spara uppgifter under en session, exempelvis för att hantera YouTube-uppspelning eller användarens inställningar.",
+              "en": "Used for temporarily storing data during a session, such as handling YouTube playback or user settings."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "LogsDatabaseV2:*",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Tallentaa lokitietoja, joita käytetään virheiden analysointiin ja käyttäjän Youtube-katselukokemuksen optimointiin.",
+              "sv": "Sparar logguppgifter som används för att analysera fel och optimera användarens YouTube-upplevelse.",
+              "en": "Stores log data used for error analysis and optimizing the user's YouTube viewing experience."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 4
+          },
+          {
+            "name": "iframe: __Secure-ROLLOUT_TOKEN",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Youtuben evästettä käytetään sisäisiin tarkoituksiin uusien ominaisuuksien tai päivitysten julkaisun hallintaan. Se auttaa YouTubea hallitsemaan, millä käyttäjillä on käytössä tietyt kokeelliset ominaisuudet tai kokoonpanot kehityksen ja käyttöönoton aikana.",
+              "sv": "YouTubes kaka används för interna syften för att hantera lanseringen av nya funktioner eller uppdateringar. Den hjälper YouTube att kontrollera vilka användare som använder vissa experimentella funktioner eller sammansättningar under utvecklingen och ibruktagandet.",
+              "en": "Cookie is used for internal purposes to manage the rollout of new features or updates. It helps YouTube control which users are included in certain experimental features or configurations during development and deployment."
+            },
+            "expiration": {
+              "fi": "180 päivää",
+              "sv": "180 dagar",
+              "en": "180 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: __Secure-YNID",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään käyttäjän vuorovaikutuksen seuraamiseen upotetun sisällön kanssa.",
+              "sv": "Används för att spåra användarens interaktion med inbäddat innehåll.",
+              "en": "Used to track user’s interaction with embedded content."
+            },
+            "expiration": {
+              "fi": "180 päivää",
+              "sv": "180 dagar",
+              "en": "180 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: VISITOR_INFO1_LIVE",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "YouTuben eväste valitsee käyttäjän verkkoyhteyden nopeuden mukaan joko vanhan tai uuden videosoittimen.",
+              "sv": "YouTubes kaka väljer antingen den nya eller gamla videospelaren enligt förbindelsens hastighet.",
+              "en": "The YouTube cookie selects the old or new video player depending on the connection speed."
+            },
+            "expiration": {
+              "fi": "180 päivää",
+              "sv": "180 dagar",
+              "en": "180 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: VISITOR_PRIVACY_METADATA",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään tallentamaan käyttäjän yksityisyysasetuksia, kuten mainos- ja sisältövalintoja, YouTube-videoupotuksen aikana.",
+              "sv": "Används för att spara användarens integritetsinställningar, såsom reklam- och innehållsval, under YouTube-videoinbäddning.",
+              "en": "Used to store the user's privacy settings, such as ad and content preferences, during a YouTube video embed."
+            },
+            "expiration": {
+              "fi": "180 päivää",
+              "sv": "180 dagar",
+              "en": "180 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: YSC",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "YouTuben eväste mahdollistaa videoiden upottamisen sivustolle.",
+              "sv": "YouTubes kaka gör det möjligt att göra videor till en del av innehållet på webbplatsen.",
+              "en": "The YouTube cookie facilitates including videos as part of the website's content."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "iframe: yt-icons-last-purged",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Tarpeellinen YouTube-videosisällön toteuttamiselle ja toiminnalle verkkosivustolla.",
+              "sv": "Nödvändigt för implementering och funktionalitet av YouTube-videoinnehåll på webbplatsen.",
+              "en": "Necessary for the implementation and functionality of YouTube video-content on the website. "
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: yt-icons",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Tarpeellinen YouTube-videosisällön toteuttamiselle ja toiminnalle verkkosivustolla.",
+              "sv": "Nödvändigt för implementering och funktionalitet av YouTube-videoinnehåll på webbplatsen.",
+              "en": "Necessary for the implementation and functionality of YouTube video-content on the website. "
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 5
+          },
+          {
+            "name": "yt-player-*",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään videotoiston laadun optimointiin. Tallentaa tiedon käyttäjän käytettävissä olevasta verkkokaistasta sekä selaimen tuottamista HTTP-otsikoista.",
+              "sv": "Används för att optimera kvaliteten på videouppspelning. Sparar information om vilket nätverksband användaren använder och de HTTP-rubriker som webbläsaren skapar.",
+              "en": "Used to store information about the user's available bandwidth and HTTP headers generated by the browser. This data is used to optimize video playback quality."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: yt-remote-connected-devices",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään tallentamaan käyttäjän laitteiden tiedot, etäyhteyden tila ja istuntotiedot, jotta videoiden suoratoisto eri laitteisiin, kuten televisioon, sujuisi saumattomasti ja katselukokemus jatkuisi helposti laitteelta toiselle.",
+              "sv": "Används för att spara uppgifter om användarens apparater, distansförbindelsens status och sessionsuppgifter, så att strömning av videor på olika apparater, såsom en tv, går smidigt och visningsupplevelsen enkelt kan fortsätta fastän man byter apparat.",
+              "en": "Used to store user device information, remote connection status, and session data to ensure seamless video streaming to different devices, such as TVs, and to allow easy continuation of the viewing experience across devices."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: yt-remote-device-id",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään tallentamaan käyttäjän laitteiden tiedot, etäyhteyden tila, ja istuntotiedot, jotta videoiden suoratoisto eri laitteisiin, kuten televisioon, sujuisi saumattomasti ja katselukokemus voitaisiin helposti jatkaa laitteelta toiselle.",
+              "sv": "Används för att spara uppgifter om användarens apparater, distansförbindelsens status och sessionsuppgifter, så att strömning av videor på olika apparater, såsom en tv, går smidigt och visningsupplevelsen enkelt kan fortsätta fastän man byter apparat.",
+              "en": "Used to store user device information, remote connection status, and session data to ensure seamless video streaming to different devices, such as TVs, and to easily continue the viewing experience from one device to another."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "yt-remote-*",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Tallentaa käyttäjän laitteiden tiedot, etäyhteyden tilan ja istuntotiedot, jotta videoiden suoratoisto eri laitteisiin, kuten televisioon, sujuisi saumattomasti ja katselukokemus jatkuisi helposti laitteelta toiselle.",
+              "sv": "Sparar uppgifter om användarens apparater, distansförbindelsens status och sessionsuppgifter, så att strömning av videor på olika apparater, såsom en tv, går smidigt och visningsupplevelsen enkelt kan fortsätta fastän man byter apparat.",
+              "en": "Used to store user device information, remote connection status, and session data to ensure seamless video streaming to different devices, such as TVs, and to allow the viewing experience to be easily continued across devices."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "iframe: ytidb::LAST_RESULT_ENTRY_KEY",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Käytetään tallentamaan viimeisin hakutulos tai kysely YouTube-sisällöstä, joka nopeuttaa seuraavia hakuja.",
+              "sv": "Används för att spara senaste sökresultat eller förfrågan i YouTube-innehåll, vilket gör följande sökningar snabbare.",
+              "en": "Used to store the most recent search result or query for YouTube content, which speeds up subsequent searches."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "iframe: YtIdbMeta/databases",
+            "host": "www.youtube.com",
+            "description": {
+              "fi": "Tallentaa metatietoja YouTuben käyttämistä tietokannoista, jotta sovellus voi käyttää dataa nopeasti paikallisesti.",
+              "sv": "Sparar metainformation om databaser som YouTube använder, så att applikationen snabbt kan använda data lokalt.",
+              "en": "Stores metadata from the databases used by YouTube, allowing the application to access the data quickly locally."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 4
+          }
+        ]
+      }
+    ],
+    "remove": true,
+    "requiredGroups": [
+      {
+        "groupId": "functional",
+        "title": {
+          "fi": "Välttämättömät toiminnalliset evästeet",
+          "sv": "Nödvändiga funktionella cookies",
+          "en": "Essential cookies"
+        },
+        "description": {
+          "fi": "Välttämättömät evästeet auttavat tekemään verkkosivustosta käyttökelpoisen sallimalla perustoimintoja, kuten sivulla siirtymisen ja sivuston suojattujen alueiden käytön. Verkkosivusto ei toimi kunnolla ilman näitä evästeitä eikä niihin tarvita suostumusta.",
+          "sv": "Nödvändiga cookies hjälper till att göra webbplatsen användbar genom att tillåta grundläggande funktioner som att navigera på sidan och använda de skyddade områdena på webbplatsen. Webbplatsen fungerar inte korrekt utan dessa cookies och kräver inte samtycke.",
+          "en": "Essential cookies help to make the website usable by allowing basic functions, navigating the page and using the protected areas of the site. The website will not work properly without these cookies and their consent is not required."
+        },
+        "cookies": [
+          {
+            "name": "wpEmojiSettingsSupports",
+            "host": "WordPress",
+            "description": {
+              "fi": "store browser details",
+              "sv": "store browser details",
+              "en": "store browser details"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "description": {
+              "fi": "Käytetään palvelimen kuormantasaajassa varmistamaan, että käyttäjä ohjataan aina samaan palvelininstanssiin käynnissä olevan istunnon aikana. ",
+              "sv": "Används i serverns belastningsutjämnare för att säkerställa att användaren alltid styrs till samma serverinstans under en pågående session.",
+              "en": "Used in the server load balancer to ensure that the user is always directed to the same server instance during the current session."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "description": {
+              "fi": "Sivusto käyttää tätä evästettä tietojen tallentamiseen siitä, ovatko kävijät antaneet hyväksyntänsä tai kieltäytyneet evästeiden käytöstä.",
+              "sv": "Webbplatsen använder denna cookie för att lagra information om huruvida besökare har samtyckt till eller avböjt användningen av cookies.",
+              "en": "The website uses this cookie to store information about whether visitors have consented to or declined the use of cookies."
+            },
+            "expiration": {
+              "fi": "100 päivää",
+              "sv": "100 dagar",
+              "en": "100 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_test_cookie",
+            "host": "WordPress",
+            "description": {
+              "fi": "Testaa, hyväksyykö selain evästeet.",
+              "sv": "Testar att webbläsaren accepterar cookies.",
+              "en": "Tests that the browser accepts cookies."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-postpass_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Käytetään istunnon ylläpitämiseen, jos viesti on salasanalla suojattu.",
+              "sv": "Används för att underhålla sessionen om ett inlägg är lösenordsskyddat.",
+              "en": "Used to maintain session if a post is password protected."
+            },
+            "expiration": {
+              "fi": "10 päivää",
+              "sv": "10 dagar",
+              "en": "10 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp_lang",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän WordPress-verkkosivuston ensisijaisen kieliasetuksen.",
+              "sv": "Lagrar användarens föredragna språkinställning för WordPress-webbplatsen.",
+              "en": "Store user's preferred language setting for WordPress website."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_logged_in_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa kirjautuneet käyttäjät, muistaa käyttäjän istunnon. Tämä eväste osoittaa, että olet kirjautunut WordPressiin ja tarjoaa käyttäjätietosi useimpia käyttöliittymän käyttötarkoituksia varten.",
+              "sv": "Spara inloggade användare, kom ihåg användarsession. Denna cookie indikerar att du är inloggad på WordPress och tillhandahåller din användarinformation för de flesta gränssnittsanvändningar.",
+              "en": "Store logged in users, remember user session. This cookie indicates that you are logged in to WordPress and provides your user information for most of the interface uses."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_sec_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPress-tietoturvaeväste, jota käytetään käyttäjän todennuksen vahvistamiseen. Tallentaa tilitiedot.",
+              "sv": "WordPress säkerhetscookie används för att validera användarautentisering. Lagrar kontouppgifter.",
+              "en": "WordPress security cookie used to validate user authentication. Stores account details."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-api-schema-model",
+            "host": "WordPress",
+            "description": {
+              "fi": "Käytetään REST API -skeemamallin välimuistissa olevana kopiona, jos saatavilla.",
+              "sv": "Används som en cachad kopia av REST API-schemamodellen om tillgänglig.",
+              "en": "Used as a cached copy of the REST API schema model if available."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "WP_DATA_USER_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPressin ydintoiminto käyttäjätietojen hallintaan.",
+              "sv": "WordPress kärnfunktion för att hantera användardata.",
+              "en": "WordPress core function to manage user data."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "WP_PREFERENCES_USER_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPressin ydintoiminto käyttäjätietojen hallintaan.",
+              "sv": "WordPress kärnfunktion för att hantera användardata.",
+              "en": "WordPress core function to manage user data."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "wp-settings-time-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "sv": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "en": "Store user preferences and persist wp-admin config. WordPress sets this cookie to preserve the user’s wp-admin settings."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-settings-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "sv": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "en": "Store user preferences and persist wp-admin config. WordPress sets this cookie to preserve the user’s wp-admin settings."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-autosave-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän verkkosivustolla suorittamat toiminnot.",
+              "sv": "Lagrar handlingar som utförts av användaren på webbplatsen.",
+              "en": "Stores actions performed by the user on the website."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "wp-saving-post",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa viestin editoriin. Seuraa, onko muokattavalle viestille tallennettua viestiä.",
+              "sv": "Lagrar ett inlägg i redigeraren. Spårar om det finns ett sparat inlägg för det aktuella inlägget som redigeras.",
+              "en": "Stores a post in the editor. Tracks whether a saved post exists for the current post being edited."
+            },
+            "expiration": {
+              "fi": "1 päivä",
+              "sv": "1 dag",
+              "en": "1 day"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_marketing",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_preferences",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_unknown",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "description": {
+              "fi": "Nykyinen hyväksytty evästekäytäntöversio.",
+              "sv": "Nuvarande version av accepterad cookiepolicy.",
+              "en": "Current accepted cookie policy version."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_banner-status",
+            "host": "Complianz",
+            "description": {
+              "fi": "Evästebannerin tila.",
+              "sv": "Status för cookiebanner.",
+              "en": "Cookie banner status."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "pll_language",
+            "host": "Polylang",
+            "description": {
+              "fi": "Tallentaa kieliasetuksen.",
+              "sv": "Lagrar språkinställningen.",
+              "en": "Stores language setting."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "mtm_cookie_consent",
+            "host": "Matomo",
+            "description": {
+              "fi": "Tallentaa Matomon evästeiden suostumusasetukset.",
+              "sv": "Lagrar Matomos inställningar för cookie-samtycke.",
+              "en": "Stores Matomo cookie consent preferences."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "helsinkiAccordionExitPanel",
+            "host": "WordPress Helsinki",
+            "description": {
+              "fi": "Sivusto käyttää tätä tietuetta tietojen tallentamiseen siitä, mikä haitariosio on avoinna käyttäjän palatessa sivustolle poistuttuaan sivustolta haitarissa olleen linkin kautta.",
+              "sv": "Webbplatsen använder den här posten för att lagra information om vilken panelsektion som är öppen när en användare återvänder till webbplatsen efter att ha lämnat webbplatsen via en länk i panelen.",
+              "en": "The site uses this record to store information about which accordion section is open when a user returns to the site after leaving the site via a link in the accordion."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "helsinkiAccordionOpenPanels",
+            "host": "WordPress Helsinki",
+            "description": {
+              "fi": "Sivusto käyttää tätä tietuetta tietojen tallentamiseen siitä, mitkä haitariosiot ovat avoinna.",
+              "sv": "Webbplatsen använder den här posten för att lagra information om vilka panelsektioner som är öppna.",
+              "en": "The site uses this record to store information about which accordion sections are open."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "helsinki_notification_*",
+            "host": "Helsinkiteema",
+            "description": {
+              "fi": "Sivusto käyttää tätä tietuetta tietojen tallentamiseen siitä, mitä poikkeusilmoituksia on suljettu.",
+              "sv": "Används av webbplatsen för att lagra information om ständga meddelanden.",
+              "en": "Used by the website to store information about closed announcements."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          }
+        ]
+      }
+    ],
+    "robotCookies": [],
+    "siteName": "Tyovaenopisto.hel.fi",
+    "translations": {
+      "acceptedAt": {
+        "fi": "Olet hyväksynyt tämän kategorian: {{date}} klo {{time}}.",
+        "sv": "Du har accepterat denna kategori: {{date}} kl. {{time}}.",
+        "en": "You have accepted this category: {{date}} at {{time}}."
+      },
+      "approveAllConsents": {
+        "fi": "Hyväksy kaikki evästeet",
+        "sv": "Acceptera alla kakor",
+        "en": "Accept all cookies"
+      },
+      "approveOnlyRequiredConsents": {
+        "fi": "Hyväksy vain välttämättömät evästeet",
+        "sv": "Acceptera endast nödvändiga",
+        "en": "Accept required cookies only"
+      },
+      "approveRequiredAndSelectedConsents": {
+        "fi": "Hyväksy valitut evästeet",
+        "sv": "Acceptera valda kakor",
+        "en": "Accept selected cookies"
+      },
+      "bannerAriaLabel": {
+        "fi": "Evästeasetukset",
+        "sv": "Inställningar för kakor",
+        "en": "Cookie settings"
+      },
+      "description": {
+        "fi": "Käytämme sivustollamme evästeitä. Evästeiden tarkoituksena on parantaa sivuston sisältöjä ja suorituskykyä. Evästeistä saatavan palautteen avulla pystymme kehittämään sivustoa ja tarjoamaan paremmin kaupunkilaisten tarpeisiin vastaavaa tietoa. Evästeasetuksista voit lukea lisätietoja käytetyistä evästeistä, hyväksyä tai estää niiden käytön. Voit myös muuttaa evästeasetuksia aina halutessasi.",
+        "sv": "Vi använder kakor på vår webbplats. Syftet med kakorna är att förbättra webbplatsens innehåll och prestanda. Med hjälp av responsen kan vi utveckla webbplatsen och erbjuda information som bättre möter stadsbornas behov. I kakinställningarna kan du läsa mer om vilka kakor som används samt godkänna eller hindra användningen av dem. Du kan även ändra kakinställningarna när du vill.",
+        "en": "We use cookies on our website. The purpose of cookies is to improve the content and performance of the website. With the feedback gained from cookies, we are able to develop the website and offer information that meets the needs of the city's residents better. In the cookie settings, you can find more information on the cookies used and accept or reject their use. You can also change the cookie settings whenever you wish."
+      },
+      "formHeading": {
+        "fi": "Tietoa sivustolla käytetyistä evästeistä",
+        "sv": "Information om kakor som används på webbplatsen",
+        "en": "About the cookies used on the website"
+      },
+      "formText": {
+        "fi": "Sivustolla käytetyt evästeet on luokiteltu käyttötarkoituksen mukaan. Alla voit lukea eri luokista ja sallia tai kieltää evästeiden käytön.",
+        "sv": "Kakorna som används på webbplatsen har klassificerats enligt användningsändamål. Du kan läsa om de olika klasserna och acceptera eller förbjuda användningen av kakor.",
+        "en": "The cookies used on the website have been classified according to their intended use. Below, you can read about the various categories and accept or reject the use of cookies."
+      },
+      "heading": {
+        "fi": "{{siteName}} käyttää evästeitä",
+        "sv": "{{siteName}} använder kakor",
+        "en": "{{siteName}} uses cookies"
+      },
+      "hideDetails": {
+        "fi": "Piilota yksityiskohdat",
+        "sv": "Stänga detaljer",
+        "en": "Hide details"
+      },
+      "hideCookieSettings": {
+        "fi": "Piilota evästeasetukset",
+        "sv": "Stänga kakinställningarna",
+        "en": "Hide cookie settings"
+      },
+      "highlightedGroup": {
+        "fi": "Sinun on hyväksyttävä tämä kategoria, jotta voit näyttää valitsemasi sisällön.",
+        "sv": "Du måste acceptera den här kategorin för att visa innehållet du har valt.",
+        "en": "You need to accept this category to display the content you have selected."
+      },
+      "highlightedGroupAria": {
+        "fi": "Hyvä tietää kategorialle: {{title}}",
+        "sv": "Bra att veta för kategorin: {{title}}",
+        "en": "Good to know for category: {{title}}"
+      },
+      "notificationAriaLabel": {
+        "fi": "Ilmoitus",
+        "sv": "Meddelande",
+        "en": "Annoucement"
+      },
+      "settingsSaved": {
+        "fi": "Asetukset tallennettu!",
+        "sv": "Inställningar sparade!",
+        "en": "Settings saved!"
+      },
+      "showCookieSettings": {
+        "fi": "Näytä evästeasetukset",
+        "sv": "Visa kakinställningarna",
+        "en": "Show cookie settings"
+      },
+      "showDetails": {
+        "fi": "Näytä yksityiskohdat",
+        "sv": "Visa detaljer",
+        "en": "Show details"
+      },
+      "storageType1": {
+        "fi": "Eväste",
+        "sv": "Kakan",
+        "en": "Cookie"
+      },
+      "storageType2": "localStorage",
+      "storageType3": "sessionStorage",
+      "storageType4": "IndexedDB",
+      "storageType5": "Cache Storage",
+      "tableHeadingsDescription": {
+        "fi": "Käyttötarkoitus",
+        "sv": "Användning",
+        "en": "Purpose of use"
+      },
+      "tableHeadingsExpiration": {
+        "fi": "Voimassaoloaika",
+        "sv": "Giltighetstid",
+        "en": "Period of validity"
+      },
+      "tableHeadingsHostName": {
+        "fi": "Evästeen asettaja",
+        "sv": "Den som lagrat kakan",
+        "en": "Cookie set by"
+      },
+      "tableHeadingsName": {
+        "fi": "Nimi",
+        "sv": "Namn",
+        "en": "Name"
+      },
+      "tableHeadingsType": {
+        "fi": "Tyyppi",
+        "sv": "Typ",
+        "en": "Type"
+      }
+    }
+  },
+  "urls": [
+    {
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%7D%7D",
+          "domain": "tyovaenopisto.hel.fi",
+          "path": "/",
+          "expires": 1798345570,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [],
+      "headless": true,
+      "pause": false
+    },
+    {
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+          "domain": "tyovaenopisto.hel.fi",
+          "path": "/",
+          "expires": 1798345570,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "headless": true,
+      "pause": false
+    },
+    {
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%2C%22unknown%22%3A%7B%22checksum%22%3A%2231b780a3%22%2C%22timestamp%22%3A1789705570783%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22b626a9f9%22%2C%22timestamp%22%3A1789705570783%7D%2C%22preferences%22%3A%7B%22checksum%22%3A%225aeb9a73%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+          "domain": "tyovaenopisto.hel.fi",
+          "path": "/",
+          "expires": 1798345570,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "headless": true,
+      "pause": false
+    }
+  ],
+  "inventoryItems": [
+    {
+      "name": "Frontpage with none accepted",
+      "groups": [],
+      "url": "https://tyovaenopisto.hel.fi",
+      "frames": [
+        {
+          "frameUrl": "https://tyovaenopisto.hel.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%7D%7D",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1798345570,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1789705586,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "pll_language",
+              "value": "fi",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241574.36097,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "pll_language",
+                    "host": "Polylang",
+                    "storageType": 1,
+                    "expiration": "-",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "e17ad235dc770f19e4915cb81fb99956",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1789705586,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "52",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241575,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241575,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241575,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_unknown",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241575,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_unknown",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_preferences",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241575,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705586,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_preferences",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "tyovaenopisto.hel.fi",
+              "hits": 33,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "hds.hel.fi",
+              "hits": 1,
+              "certificate": {
+                "subjectName": "hds.hel.fi",
+                "validFrom": 1788083659,
+                "validTo": 1795859658,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "makasiini.hel.fi",
+              "hits": 1,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "api.hel.fi",
+              "hits": 2,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "ilmonet.fi",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.ilmonet.fi",
+                "validFrom": 1758153600,
+                "validTo": 1792454399,
+                "issuer": "Sectigo Public Server Authentication CA DV R36",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1789705586,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    },
+    {
+      "name": "Frontpage with required accepted",
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "url": "https://tyovaenopisto.hel.fi",
+      "frames": [
+        {
+          "frameUrl": "https://tyovaenopisto.hel.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1798345570,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1789705599,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "pll_language",
+              "value": "fi",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241587.25941,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "pll_language",
+                    "host": "Polylang",
+                    "storageType": 1,
+                    "expiration": "-",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "e17ad235dc770f19e4915cb81fb99956",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1789705599,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "52",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241588,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241588,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241588,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_unknown",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241588,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_unknown",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_preferences",
+              "value": "deny",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241588,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705599,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_preferences",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "tyovaenopisto.hel.fi",
+              "hits": 33,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "hds.hel.fi",
+              "hits": 1,
+              "certificate": {
+                "subjectName": "hds.hel.fi",
+                "validFrom": 1788083659,
+                "validTo": 1795859658,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "makasiini.hel.fi",
+              "hits": 1,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "api.hel.fi",
+              "hits": 2,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "ilmonet.fi",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.ilmonet.fi",
+                "validFrom": 1758153600,
+                "validTo": 1792454399,
+                "issuer": "Sectigo Public Server Authentication CA DV R36",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1789705599,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    },
+    {
+      "name": "Frontpage with all accepted",
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "url": "https://tyovaenopisto.hel.fi",
+      "frames": [
+        {
+          "frameUrl": "https://tyovaenopisto.hel.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%2C%22unknown%22%3A%7B%22checksum%22%3A%2231b780a3%22%2C%22timestamp%22%3A1789705570783%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22b626a9f9%22%2C%22timestamp%22%3A1789705570783%7D%2C%22preferences%22%3A%7B%22checksum%22%3A%225aeb9a73%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1798345570,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1789705612,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "pll_language",
+              "value": "fi",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241600.597084,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "pll_language",
+                    "host": "Polylang",
+                    "storageType": 1,
+                    "expiration": "-",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "e6ba101a1ec9ca3370d6ed5830b38e7f",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1789705612,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "52",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241601,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241601,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241601,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_unknown",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241601,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_unknown",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_preferences",
+              "value": "allow",
+              "domain": "tyovaenopisto.hel.fi",
+              "path": "/",
+              "expires": 1821241601,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1789705612,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_preferences",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "tyovaenopisto.hel.fi",
+              "hits": 33,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "hds.hel.fi",
+              "hits": 2,
+              "certificate": {
+                "subjectName": "hds.hel.fi",
+                "validFrom": 1788083659,
+                "validTo": 1795859658,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "makasiini.hel.fi",
+              "hits": 1,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "api.hel.fi",
+              "hits": 2,
+              "certificate": {
+                "subjectName": "hel.fi",
+                "validFrom": 1788261711,
+                "validTo": 1805455311,
+                "issuer": "Telia RSA OV CA v4",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "webanalytics.digiaiiris.com",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.digiaiiris.com",
+                "validFrom": 1762128000,
+                "validTo": 1793231999,
+                "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "ilmonet.fi",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.ilmonet.fi",
+                "validFrom": 1758153600,
+                "validTo": 1792454399,
+                "issuer": "Sectigo Public Server Authentication CA DV R36",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1789705612,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    }
+  ],
+  "foundItems": [
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%7D%7D",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1798345570,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1789705586,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "pll_language",
+      "item": {
+        "name": "pll_language",
+        "value": "fi",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241574.36097,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "pll_language",
+              "host": "Polylang",
+              "storageType": 1,
+              "expiration": "-",
+              "hostMatches": false,
+              "expiresMatches": false
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "pll_language",
+            "host": "Polylang",
+            "storageType": 1,
+            "expiration": "-",
+            "hostMatches": false,
+            "expiresMatches": false
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "e17ad235dc770f19e4915cb81fb99956",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1789705586,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "52",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241575,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241575,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241575,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_unknown",
+      "item": {
+        "name": "cmplz_unknown",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241575,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_unknown",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_unknown",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_preferences",
+      "item": {
+        "name": "cmplz_preferences",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241575,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705586,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_preferences",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_preferences",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1798345570,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1789705599,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "pll_language",
+      "item": {
+        "name": "pll_language",
+        "value": "fi",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241587.25941,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "pll_language",
+              "host": "Polylang",
+              "storageType": 1,
+              "expiration": "-",
+              "hostMatches": false,
+              "expiresMatches": false
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "pll_language",
+            "host": "Polylang",
+            "storageType": 1,
+            "expiration": "-",
+            "hostMatches": false,
+            "expiresMatches": false
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "e17ad235dc770f19e4915cb81fb99956",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1789705599,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "52",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241588,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241588,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241588,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_unknown",
+      "item": {
+        "name": "cmplz_unknown",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241588,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_unknown",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_unknown",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_preferences",
+      "item": {
+        "name": "cmplz_preferences",
+        "value": "deny",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241588,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705599,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_preferences",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_preferences",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%222613114d%22%2C%22timestamp%22%3A1789705570783%7D%2C%22unknown%22%3A%7B%22checksum%22%3A%2231b780a3%22%2C%22timestamp%22%3A1789705570783%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22b626a9f9%22%2C%22timestamp%22%3A1789705570783%7D%2C%22preferences%22%3A%7B%22checksum%22%3A%225aeb9a73%22%2C%22timestamp%22%3A1789705570783%7D%7D%7D",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1798345570,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1789705612,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "pll_language",
+      "item": {
+        "name": "pll_language",
+        "value": "fi",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241600.597084,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "pll_language",
+              "host": "Polylang",
+              "storageType": 1,
+              "expiration": "-",
+              "hostMatches": false,
+              "expiresMatches": false
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "pll_language",
+            "host": "Polylang",
+            "storageType": 1,
+            "expiration": "-",
+            "hostMatches": false,
+            "expiresMatches": false
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "e6ba101a1ec9ca3370d6ed5830b38e7f",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1789705612,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "52",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241601,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241601,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241601,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_unknown",
+      "item": {
+        "name": "cmplz_unknown",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241601,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_unknown",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_unknown",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_preferences",
+      "item": {
+        "name": "cmplz_preferences",
+        "value": "allow",
+        "domain": "tyovaenopisto.hel.fi",
+        "path": "/",
+        "expires": 1821241601,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1789705612,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_preferences",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "unknown",
+        "statistics",
+        "marketing",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences",
+        "functional",
+        "statistics",
+        "unknown",
+        "preferences"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://tyovaenopisto.hel.fi",
+      "frameUrl": "https://tyovaenopisto.hel.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_preferences",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    }
+  ],
+  "siteSettingsFlat": [
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wpEmojiSettingsSupports",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_functional",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_statistics",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helfi-lb",
+      "host": ".hel.fi",
+      "storageType": 1,
+      "expiration": "Session",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helfi-cookie-consents",
+      "host": "HDS CookieConsent",
+      "storageType": 1,
+      "expiration": "100 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_test_cookie",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-postpass_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "10 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp_lang",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_logged_in_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_sec_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-api-schema-model",
+      "host": "WordPress",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "WP_DATA_USER_*",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "WP_PREFERENCES_USER_*",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-settings-time-*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 year"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-settings-*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 year"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-autosave-*",
+      "host": "WordPress",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-saving-post",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 day"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_marketing",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_preferences",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_unknown",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_policy_id",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_banner-status",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "pll_language",
+      "host": "Polylang",
+      "storageType": 1,
+      "expiration": "-",
+      "hostMatches": false,
+      "expiresMatches": false
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "mtm_cookie_consent",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "1 year"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helsinkiAccordionExitPanel",
+      "host": "WordPress Helsinki",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helsinkiAccordionOpenPanels",
+      "host": "WordPress Helsinki",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helsinki_notification_*",
+      "host": "Helsinkiteema",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_id*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "13 months"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_ses*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "session"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_id.*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "393 days"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_ses.*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "1 hour"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "rnsbid",
+      "host": "Askem",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "rnsbid_ts",
+      "host": "Askem",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "rns_reaction_*",
+      "host": "Askem",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "unknown",
+      "required": false,
+      "name": "_js_datr",
+      "host": "Facebook",
+      "storageType": 1,
+      "expiration": ""
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: httpskartta.hel.fi.SWCulture",
+      "host": "kartta.hel.fi",
+      "storageType": 1,
+      "expiration": "1826 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: httpskartta.hel.fi.SWProfile",
+      "host": "kartta.hel.fi",
+      "storageType": 1,
+      "expiration": "400 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: cb-enabled",
+      "host": "kartta.hel.fi",
+      "storageType": 1,
+      "expiration": "400 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: louhi-cookie-bar-enabled",
+      "host": "kartta.hel.fi",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: LOUHI-ASP-XSRF-TOKEN",
+      "host": "kartta.hel.fi",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: ``",
+      "host": "app.powerbi.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: AI_buffer_1",
+      "host": "app.powerbi.com",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: AI_sentBuffer_1",
+      "host": "app.powerbi.com",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: ai_session",
+      "host": "app.powerbi.com",
+      "storageType": 1,
+      "expiration": "30 minutes"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: ai_user",
+      "host": "app.powerbi.com",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: ARRAffinitySameSite",
+      "host": "app.powerbi.com",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: GeocoderCache/objects",
+      "host": "app.powerbi.com",
+      "storageType": 4,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: manifests.artifacts",
+      "host": "app.powerbi.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: manifests.extensions",
+      "host": "app.powerbi.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: manifests.products",
+      "host": "app.powerbi.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: manifests.tabs",
+      "host": "app.powerbi.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: WFESessionId",
+      "host": "app.powerbi.com",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: COOKIE_SUPPORT",
+      "host": "suite.icareus.com",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: GUEST_LANGUAGE_ID",
+      "host": "suite.icareus.com",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: icareusDevice",
+      "host": "suite.icareus.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: JSESSIONID",
+      "host": "suite.icareus.com",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: rmpVolume",
+      "host": "suite.icareus.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "*-*",
+      "host": "www.youtube.com",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: iU5q-!O9@$",
+      "host": "www.youtube.com",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "LogsDatabaseV2:*",
+      "host": "www.youtube.com",
+      "storageType": 4,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: __Secure-ROLLOUT_TOKEN",
+      "host": "www.youtube.com",
+      "storageType": 1,
+      "expiration": "180 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: __Secure-YNID",
+      "host": "www.youtube.com",
+      "storageType": 1,
+      "expiration": "180 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: VISITOR_INFO1_LIVE",
+      "host": "www.youtube.com",
+      "storageType": 1,
+      "expiration": "180 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: VISITOR_PRIVACY_METADATA",
+      "host": "www.youtube.com",
+      "storageType": 1,
+      "expiration": "180 days"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: YSC",
+      "host": "www.youtube.com",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: yt-icons-last-purged",
+      "host": "www.youtube.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: yt-icons",
+      "host": "www.youtube.com",
+      "storageType": 5,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "yt-player-*",
+      "host": "www.youtube.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: yt-remote-connected-devices",
+      "host": "www.youtube.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: yt-remote-device-id",
+      "host": "www.youtube.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "yt-remote-*",
+      "host": "www.youtube.com",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: ytidb::LAST_RESULT_ENTRY_KEY",
+      "host": "www.youtube.com",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "preferences",
+      "required": false,
+      "name": "iframe: YtIdbMeta/databases",
+      "host": "www.youtube.com",
+      "storageType": 4,
+      "expiration": "Session"
+    }
+  ],
+  "timing": {
+    "Processing time": {
+      "start": 114605.991625,
+      "end": 158947.179524,
+      "elapsed": 44341.18789900001,
+      "formattedElapsed": "44.341s"
+    },
+    "Fetching tracking domains": {
+      "start": 114605.992937,
+      "end": 114771.098524,
+      "elapsed": 165.1055869999982,
+      "formattedElapsed": "0.165s"
+    },
+    "Fetching checksums and siteSettings": {
+      "start": 114607.466859,
+      "end": 119865.611791,
+      "elapsed": 5258.14493200001,
+      "formattedElapsed": "5.258s"
+    },
+    "URL generation": {
+      "start": 119865.683765,
+      "end": 119866.176595,
+      "elapsed": 0.4928300000028685,
+      "formattedElapsed": "0.000s"
+    },
+    "Data collection": {
+      "start": 119866.250604,
+      "end": 158947.116717,
+      "elapsed": 39080.866113,
+      "formattedElapsed": "39.081s"
+    },
+    " - \"Frontpage with none accepted\"": {
+      "start": 119925.582289,
+      "end": 132774.347082,
+      "elapsed": 12848.764792999995,
+      "formattedElapsed": "12.849s"
+    },
+    " - \"Frontpage with required accepted\"": {
+      "start": 132864.367871,
+      "end": 145755.644422,
+      "elapsed": 12891.276551000017,
+      "formattedElapsed": "12.891s"
+    },
+    " - \"Frontpage with all accepted\"": {
+      "start": 145839.230501,
+      "end": 158919.645222,
+      "elapsed": 13080.41472099998,
+      "formattedElapsed": "13.080s"
+    },
+    "Compliance checking": {
+      "start": 158947.2362,
+      "end": 158949.69459,
+      "elapsed": 2.4583899999852292,
+      "formattedElapsed": "0.002s"
+    }
+  }
+}
