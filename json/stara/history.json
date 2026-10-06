@@ -306,5 +306,19 @@
       "siteSettingsFlat": 84
     },
     "filename": "report-stara-2026-10-05T04:34:14.627Z.json"
+  },
+  {
+    "timeStamp": "2026-10-06T04:29:26.716Z",
+    "summary": {
+      "total": 25,
+      "compliant": 25,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "35.970s",
+      "siteSettingsFlat": 84
+    },
+    "filename": "report-stara-2026-10-06T04:29:26.716Z.json"
   }
 ]
