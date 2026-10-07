@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-10-07T08:22:39.954Z",
+    "summary": {
+      "total": 21,
+      "compliant": 21,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "35.049s",
+      "siteSettingsFlat": 28
+    },
+    "filename": "report-urbantechhelsinki-2026-10-07T08:22:39.954Z.json"
+  }
+]

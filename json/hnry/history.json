@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-10-07T08:17:47.975Z",
+    "summary": {
+      "total": 25,
+      "compliant": 25,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "37.462s",
+      "siteSettingsFlat": 27
+    },
+    "filename": "report-hnry-2026-10-07T08:17:47.975Z.json"
+  }
+]

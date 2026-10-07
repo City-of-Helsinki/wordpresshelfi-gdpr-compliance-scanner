@@ -1,0 +1,16 @@
+[
+  {
+    "timeStamp": "2026-10-07T08:17:09.503Z",
+    "summary": {
+      "total": 42,
+      "compliant": 36,
+      "nonCompliant": 6,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "50.936s",
+      "siteSettingsFlat": 94
+    },
+    "filename": "report-digituki-2026-10-07T08:17:09.503Z.json"
+  }
+]
