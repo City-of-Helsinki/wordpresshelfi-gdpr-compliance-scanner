@@ -26,5 +26,19 @@
       "siteSettingsFlat": 28
     },
     "filename": "report-urbantechhelsinki-2026-10-08T04:35:32.950Z.json"
+  },
+  {
+    "timeStamp": "2026-10-09T04:36:30.126Z",
+    "summary": {
+      "total": 21,
+      "compliant": 21,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "33.422s",
+      "siteSettingsFlat": 28
+    },
+    "filename": "report-urbantechhelsinki-2026-10-09T04:36:30.126Z.json"
   }
 ]
