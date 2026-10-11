@@ -1,0 +1,3546 @@
+{
+  "timeStamp": "2026-10-11T04:32:19.865Z",
+  "summary": {
+    "total": 21,
+    "compliant": 21,
+    "nonCompliant": 0,
+    "warnings": 0,
+    "urls": 3,
+    "failedUrls": 0,
+    "timing": "40.326s",
+    "siteSettingsFlat": 37
+  },
+  "config": {
+    "mainUrl": "https://spouseprogram.fi",
+    "settingsDomainSubstitution": "https://spouseprogram.fi",
+    "apiUrl": "https://spouseprogram.fi/wp-json/helfi-cookie-consent/v1/settings?cacheBuster=1791693099538",
+    "urls": [
+      {
+        "only": false,
+        "nameBase": "Frontpage",
+        "url": "https://spouseprogram.fi",
+        "actions": [],
+        "variants": [
+          "none",
+          "required",
+          "all"
+        ],
+        "headless": true,
+        "pause": false
+      }
+    ]
+  },
+  "groupHashes": {
+    "functional": {
+      "checksum": "e236c0fc",
+      "timestamp": 1791693103250
+    },
+    "statistics": {
+      "checksum": "914da907",
+      "timestamp": 1791693103250
+    },
+    "marketing": {
+      "checksum": "07210a77",
+      "timestamp": 1791693103250
+    }
+  },
+  "groupSettings": [
+    {
+      "groupId": "functional",
+      "required": true,
+      "cookies": [
+        {
+          "name": "WP_PREFERENCES_USER_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "persistent"
+        },
+        {
+          "name": "cmplz_user_data",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "wpEmojiSettingsSupports",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "session"
+        },
+        {
+          "name": "cmplz_functional",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_statistics",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_policy_id",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_marketing",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_preferences",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_consented_services",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "cmplz_banner-status",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "wf_loginalerted_*",
+          "host": "Wordfence",
+          "storageType": 1,
+          "expiration": "persistent"
+        },
+        {
+          "name": "helfi-lb",
+          "host": ".hel.fi",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "helfi-cookie-consents",
+          "host": "HDS CookieConsent",
+          "storageType": 1,
+          "expiration": "100 days"
+        },
+        {
+          "name": "wordpress_test_cookie",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "wp-postpass_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "10 days"
+        },
+        {
+          "name": "wp_lang",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "Session"
+        },
+        {
+          "name": "wordpress_logged_in_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "-"
+        },
+        {
+          "name": "wordpress_sec_*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "-"
+        },
+        {
+          "name": "wp-api-schema-model",
+          "host": "WordPress",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "WP_DATA_USER_*",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "WP_PREFERENCES_USER_*",
+          "host": "WordPress",
+          "storageType": 2,
+          "expiration": "-"
+        },
+        {
+          "name": "wp-settings-time-*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "wp-settings-*",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "wp-autosave-*",
+          "host": "WordPress",
+          "storageType": 3,
+          "expiration": "Session"
+        },
+        {
+          "name": "wp-saving-post",
+          "host": "WordPress",
+          "storageType": 1,
+          "expiration": "1 day"
+        },
+        {
+          "name": "cmplz_unknown",
+          "host": "Complianz",
+          "storageType": 1,
+          "expiration": "365 days"
+        },
+        {
+          "name": "mtm_cookie_consent",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "1 year"
+        },
+        {
+          "name": "news-visited",
+          "host": "Spouseprogram",
+          "storageType": 2,
+          "expiration": "persistent"
+        },
+        {
+          "name": "hidenotification",
+          "host": "Spouseprogram",
+          "storageType": 2,
+          "expiration": "persistent"
+        }
+      ]
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "cookies": [
+        {
+          "name": "_pk_id*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "13 months"
+        },
+        {
+          "name": "_pk_ses*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "session"
+        },
+        {
+          "name": "_pk_id.*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "393 days"
+        },
+        {
+          "name": "_pk_ses.*",
+          "host": "Matomo",
+          "storageType": 1,
+          "expiration": "1 hour"
+        }
+      ]
+    },
+    {
+      "groupId": "marketing",
+      "required": false,
+      "cookies": [
+        {
+          "name": "GPS",
+          "host": "YouTube",
+          "storageType": 1,
+          "expiration": "session"
+        },
+        {
+          "name": "VISITOR_INFO1_LIVE",
+          "host": "YouTube",
+          "storageType": 1,
+          "expiration": "6 months"
+        },
+        {
+          "name": "YSC",
+          "host": "YouTube",
+          "storageType": 1,
+          "expiration": "session"
+        },
+        {
+          "name": "PREF",
+          "host": "YouTube",
+          "storageType": 1,
+          "expiration": "8 months"
+        }
+      ]
+    }
+  ],
+  "siteSettings": {
+    "cookieName": "helfi-cookie-consents",
+    "fallbackLanguage": "en",
+    "groupsWhitelistedForApi": {
+      "0": "functional",
+      "1": "statistics",
+      "2": "marketing",
+      "4": "preferences"
+    },
+    "languages": [
+      {
+        "code": "fi",
+        "name": "Finnish",
+        "direction": "ltr"
+      },
+      {
+        "code": "sv",
+        "name": "Swedish",
+        "direction": "ltr"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "direction": "ltr"
+      }
+    ],
+    "monitorInterval": 500,
+    "optionalGroups": [
+      {
+        "groupId": "statistics",
+        "title": {
+          "fi": "Tilastointi (anonyymi)",
+          "sv": "Statistik (anonym)",
+          "en": "Statistics (anonymous)"
+        },
+        "description": {
+          "fi": "Tilastointievästeiden keräämää tietoa käytetään verkkosivuston kehittämiseen.",
+          "sv": "De uppgifter statistikkakorna samlar in används för att utveckla webbplatsen.",
+          "en": "The information collected by statistics cookies is used for developing the website."
+        },
+        "cookies": [
+          {
+            "name": "_pk_id*",
+            "host": "Matomo",
+            "description": {
+              "fi": "store a unique user ID",
+              "sv": "store a unique user ID",
+              "en": "store a unique user ID"
+            },
+            "expiration": {
+              "fi": "13 months",
+              "sv": "13 months",
+              "en": "13 months"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_ses*",
+            "host": "Matomo",
+            "description": {
+              "fi": "store a unique session ID",
+              "sv": "store a unique session ID",
+              "en": "store a unique session ID"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_id.*",
+            "host": "Matomo",
+            "description": {
+              "fi": "Matomo-kävijäseurannan eväste kerää käyttäjätietoja, kuten käyttäjän uniikin kävijätiedon.",
+              "sv": "Matomo-statistiksystemets kaka samlar information om hur webbplatsen används.",
+              "en": "Matomo Analytics - used to store a few details about the user such as the unique visitor ID."
+            },
+            "expiration": {
+              "fi": "393 päivää",
+              "sv": "393 dagar",
+              "en": "393 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "_pk_ses.*",
+            "host": "Matomo",
+            "description": {
+              "fi": "Matomo-kävijäseurannan eväste yhdistää istunnon aikana suoritetut toiminnot (esim. sivun katselut, lataukset ja tapahtumat) yksittäiseen vierailuun.",
+              "sv": "Kakan för Matomo-besökaruppföljningen kopplar ihop aktiviteter som skett under en session (t.ex. sidvisningar, nedladdningar och aktiviteter) med ett enskilt besök.",
+              "en": "Matomo Analytics - Used to link actions performed during the session (e.g., page views, downloads, events) to a unique visit, thereby allowing Matomo to accurately attribute these actions to a single session."
+            },
+            "expiration": {
+              "fi": "1 tunti",
+              "sv": "1 timme",
+              "en": "1 hour"
+            },
+            "storageType": 1
+          }
+        ]
+      },
+      {
+        "groupId": "marketing",
+        "title": {
+          "fi": "Markkinointi",
+          "sv": "Marknadsföring",
+          "en": "Marketing"
+        },
+        "description": {
+          "fi": "Markkinointievästeet ovat evästeitä tai muita paikallisia tallennusmuotoja, joita käytetään käyttäjäprofiilien luomiseen mainosten näyttämiseksi tai käyttäjän seuraamiseksi tällä verkkosivustolla tai useilla verkkosivustoilla vastaavissa markkinointitarkoituksissa.",
+          "sv": "Marknadsföringscookies är cookies eller någon annan form av lokal lagring som används för att skapa användarprofiler för att visa reklam eller för att spåra användaren på denna webbplats eller på flera webbplatser för liknande marknadsföringssyften.",
+          "en": "Marketing cookies are cookies or any other form of local storage, used to create user profiles to display advertising or to track the user on this website or across several websites for similar marketing purposes."
+        },
+        "cookies": [
+          {
+            "name": "GPS",
+            "host": "YouTube",
+            "description": {
+              "fi": "store location data",
+              "sv": "store location data",
+              "en": "store location data"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "VISITOR_INFO1_LIVE",
+            "host": "YouTube",
+            "description": {
+              "fi": "provide ad delivery or retargeting",
+              "sv": "provide ad delivery or retargeting",
+              "en": "provide ad delivery or retargeting"
+            },
+            "expiration": {
+              "fi": "6 months",
+              "sv": "6 months",
+              "en": "6 months"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "YSC",
+            "host": "YouTube",
+            "description": {
+              "fi": "Store and track interaction",
+              "sv": "Store and track interaction",
+              "en": "Store and track interaction"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "PREF",
+            "host": "YouTube",
+            "description": {
+              "fi": "store user preferences",
+              "sv": "store user preferences",
+              "en": "store user preferences"
+            },
+            "expiration": {
+              "fi": "8 months",
+              "sv": "8 months",
+              "en": "8 months"
+            },
+            "storageType": 1
+          }
+        ]
+      }
+    ],
+    "remove": true,
+    "requiredGroups": [
+      {
+        "groupId": "functional",
+        "title": {
+          "fi": "Välttämättömät toiminnalliset evästeet",
+          "sv": "Nödvändiga funktionella cookies",
+          "en": "Essential cookies"
+        },
+        "description": {
+          "fi": "Välttämättömät evästeet auttavat tekemään verkkosivustosta käyttökelpoisen sallimalla perustoimintoja, kuten sivulla siirtymisen ja sivuston suojattujen alueiden käytön. Verkkosivusto ei toimi kunnolla ilman näitä evästeitä eikä niihin tarvita suostumusta.",
+          "sv": "Nödvändiga cookies hjälper till att göra webbplatsen användbar genom att tillåta grundläggande funktioner som att navigera på sidan och använda de skyddade områdena på webbplatsen. Webbplatsen fungerar inte korrekt utan dessa cookies och kräver inte samtycke.",
+          "en": "Essential cookies help to make the website usable by allowing basic functions, navigating the page and using the protected areas of the site. The website will not work properly without these cookies and their consent is not required."
+        },
+        "cookies": [
+          {
+            "name": "WP_PREFERENCES_USER_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "store user preferences",
+              "sv": "store user preferences",
+              "en": "store user preferences"
+            },
+            "expiration": {
+              "fi": "persistent",
+              "sv": "persistent",
+              "en": "persistent"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_user_data",
+            "host": "Complianz",
+            "description": {
+              "fi": "read to determine which cookie banner to show",
+              "sv": "read to determine which cookie banner to show",
+              "en": "read to determine which cookie banner to show"
+            },
+            "expiration": {
+              "fi": "365 days",
+              "sv": "365 days",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wpEmojiSettingsSupports",
+            "host": "WordPress",
+            "description": {
+              "fi": "store browser details",
+              "sv": "store browser details",
+              "en": "store browser details"
+            },
+            "expiration": {
+              "fi": "session",
+              "sv": "session",
+              "en": "session"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "description": {
+              "fi": "Nykyinen hyväksytty evästekäytäntöversio.",
+              "sv": "Nuvarande version av accepterad cookiepolicy.",
+              "en": "Current accepted cookie policy version."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_marketing",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_preferences",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_consented_services",
+            "host": "Complianz",
+            "description": {
+              "fi": "store cookie consent preferences",
+              "sv": "store cookie consent preferences",
+              "en": "store cookie consent preferences"
+            },
+            "expiration": {
+              "fi": "365 days",
+              "sv": "365 days",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_banner-status",
+            "host": "Complianz",
+            "description": {
+              "fi": "Evästebannerin tila.",
+              "sv": "Status för cookiebanner.",
+              "en": "Cookie banner status."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wf_loginalerted_*",
+            "host": "Wordfence",
+            "description": {
+              "fi": "provide protection against hackers",
+              "sv": "provide protection against hackers",
+              "en": "provide protection against hackers"
+            },
+            "expiration": {
+              "fi": "persistent",
+              "sv": "persistent",
+              "en": "persistent"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "description": {
+              "fi": "Käytetään palvelimen kuormantasaajassa varmistamaan, että käyttäjä ohjataan aina samaan palvelininstanssiin käynnissä olevan istunnon aikana. ",
+              "sv": "Används i serverns belastningsutjämnare för att säkerställa att användaren alltid styrs till samma serverinstans under en pågående session.",
+              "en": "Used in the server load balancer to ensure that the user is always directed to the same server instance during the current session."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "description": {
+              "fi": "Sivusto käyttää tätä evästettä tietojen tallentamiseen siitä, ovatko kävijät antaneet hyväksyntänsä tai kieltäytyneet evästeiden käytöstä.",
+              "sv": "Webbplatsen använder denna cookie för att lagra information om huruvida besökare har samtyckt till eller avböjt användningen av cookies.",
+              "en": "The website uses this cookie to store information about whether visitors have consented to or declined the use of cookies."
+            },
+            "expiration": {
+              "fi": "100 päivää",
+              "sv": "100 dagar",
+              "en": "100 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_test_cookie",
+            "host": "WordPress",
+            "description": {
+              "fi": "Testaa, hyväksyykö selain evästeet.",
+              "sv": "Testar att webbläsaren accepterar cookies.",
+              "en": "Tests that the browser accepts cookies."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-postpass_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Käytetään istunnon ylläpitämiseen, jos viesti on salasanalla suojattu.",
+              "sv": "Används för att underhålla sessionen om ett inlägg är lösenordsskyddat.",
+              "en": "Used to maintain session if a post is password protected."
+            },
+            "expiration": {
+              "fi": "10 päivää",
+              "sv": "10 dagar",
+              "en": "10 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp_lang",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän WordPress-verkkosivuston ensisijaisen kieliasetuksen.",
+              "sv": "Lagrar användarens föredragna språkinställning för WordPress-webbplatsen.",
+              "en": "Store user's preferred language setting for WordPress website."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_logged_in_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa kirjautuneet käyttäjät, muistaa käyttäjän istunnon. Tämä eväste osoittaa, että olet kirjautunut WordPressiin ja tarjoaa käyttäjätietosi useimpia käyttöliittymän käyttötarkoituksia varten.",
+              "sv": "Spara inloggade användare, kom ihåg användarsession. Denna cookie indikerar att du är inloggad på WordPress och tillhandahåller din användarinformation för de flesta gränssnittsanvändningar.",
+              "en": "Store logged in users, remember user session. This cookie indicates that you are logged in to WordPress and provides your user information for most of the interface uses."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wordpress_sec_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPress-tietoturvaeväste, jota käytetään käyttäjän todennuksen vahvistamiseen. Tallentaa tilitiedot.",
+              "sv": "WordPress säkerhetscookie används för att validera användarautentisering. Lagrar kontouppgifter.",
+              "en": "WordPress security cookie used to validate user authentication. Stores account details."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-api-schema-model",
+            "host": "WordPress",
+            "description": {
+              "fi": "Käytetään REST API -skeemamallin välimuistissa olevana kopiona, jos saatavilla.",
+              "sv": "Används som en cachad kopia av REST API-schemamodellen om tillgänglig.",
+              "en": "Used as a cached copy of the REST API schema model if available."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "WP_DATA_USER_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPressin ydintoiminto käyttäjätietojen hallintaan.",
+              "sv": "WordPress kärnfunktion för att hantera användardata.",
+              "en": "WordPress core function to manage user data."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "WP_PREFERENCES_USER_*",
+            "host": "WordPress",
+            "description": {
+              "fi": "WordPressin ydintoiminto käyttäjätietojen hallintaan.",
+              "sv": "WordPress kärnfunktion för att hantera användardata.",
+              "en": "WordPress core function to manage user data."
+            },
+            "expiration": {
+              "fi": "-",
+              "sv": "-",
+              "en": "-"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "wp-settings-time-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "sv": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "en": "Store user preferences and persist wp-admin config. WordPress sets this cookie to preserve the user’s wp-admin settings."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-settings-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "sv": "Tallentaa käyttäjän asetukset ja säilyttää wp-admin-asetukset. WordPress asettaa tämän evästeen säilyttääkseen käyttäjän wp-admin-asetukset.",
+              "en": "Store user preferences and persist wp-admin config. WordPress sets this cookie to preserve the user’s wp-admin settings."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "wp-autosave-*",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa käyttäjän verkkosivustolla suorittamat toiminnot.",
+              "sv": "Lagrar handlingar som utförts av användaren på webbplatsen.",
+              "en": "Stores actions performed by the user on the website."
+            },
+            "expiration": {
+              "fi": "Istunto",
+              "sv": "Session",
+              "en": "Session"
+            },
+            "storageType": 3
+          },
+          {
+            "name": "wp-saving-post",
+            "host": "WordPress",
+            "description": {
+              "fi": "Tallentaa viestin editoriin. Seuraa, onko muokattavalle viestille tallennettua viestiä.",
+              "sv": "Lagrar ett inlägg i redigeraren. Spårar om det finns ett sparat inlägg för det aktuella inlägget som redigeras.",
+              "en": "Stores a post in the editor. Tracks whether a saved post exists for the current post being edited."
+            },
+            "expiration": {
+              "fi": "1 päivä",
+              "sv": "1 dag",
+              "en": "1 day"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "cmplz_unknown",
+            "host": "Complianz",
+            "description": {
+              "fi": "Tallentaa evästetyypin hyväksynnän.",
+              "sv": "Samtycke till cookies registreras.",
+              "en": "Records cookie type consent."
+            },
+            "expiration": {
+              "fi": "365 päivää",
+              "sv": "365 dagar",
+              "en": "365 days"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "mtm_cookie_consent",
+            "host": "Matomo",
+            "description": {
+              "fi": "Tallentaa Matomon evästeiden suostumusasetukset.",
+              "sv": "Lagrar Matomos inställningar för cookie-samtycke.",
+              "en": "Stores Matomo cookie consent preferences."
+            },
+            "expiration": {
+              "fi": "1 vuosi",
+              "sv": "1 år",
+              "en": "1 year"
+            },
+            "storageType": 1
+          },
+          {
+            "name": "news-visited",
+            "host": "Spouseprogram",
+            "description": {
+              "fi": "Store timestamp when user last opened the news",
+              "sv": "Store timestamp when user last opened the news",
+              "en": "Store timestamp when user last opened the news"
+            },
+            "expiration": {
+              "fi": "persistent",
+              "sv": "persistent",
+              "en": "persistent"
+            },
+            "storageType": 2
+          },
+          {
+            "name": "hidenotification",
+            "host": "Spouseprogram",
+            "description": {
+              "fi": "Remembers to hide the news notification if user has closed it",
+              "sv": "Remembers to hide the news notification if user has closed it",
+              "en": "Remembers to hide the news notification if user has closed it"
+            },
+            "expiration": {
+              "fi": "persistent",
+              "sv": "persistent",
+              "en": "persistent"
+            },
+            "storageType": 2
+          }
+        ]
+      }
+    ],
+    "robotCookies": [],
+    "siteName": "Spouseprogram.fi",
+    "translations": {
+      "acceptedAt": {
+        "fi": "Olet hyväksynyt tämän kategorian: {{date}} klo {{time}}.",
+        "sv": "Du har accepterat denna kategori: {{date}} kl. {{time}}.",
+        "en": "You have accepted this category: {{date}} at {{time}}."
+      },
+      "approveAllConsents": {
+        "fi": "Hyväksy kaikki evästeet",
+        "sv": "Acceptera alla kakor",
+        "en": "Accept all cookies"
+      },
+      "approveOnlyRequiredConsents": {
+        "fi": "Hyväksy vain välttämättömät evästeet",
+        "sv": "Acceptera endast nödvändiga",
+        "en": "Accept required cookies only"
+      },
+      "approveRequiredAndSelectedConsents": {
+        "fi": "Hyväksy valitut evästeet",
+        "sv": "Acceptera valda kakor",
+        "en": "Accept selected cookies"
+      },
+      "bannerAriaLabel": {
+        "fi": "Evästeasetukset",
+        "sv": "Inställningar för kakor",
+        "en": "Cookie settings"
+      },
+      "description": {
+        "fi": "Käytämme sivustollamme evästeitä. Evästeiden tarkoituksena on parantaa sivuston sisältöjä ja suorituskykyä. Evästeistä saatavan palautteen avulla pystymme kehittämään sivustoa ja tarjoamaan paremmin kaupunkilaisten tarpeisiin vastaavaa tietoa. Evästeasetuksista voit lukea lisätietoja käytetyistä evästeistä, hyväksyä tai estää niiden käytön. Voit myös muuttaa evästeasetuksia aina halutessasi.",
+        "sv": "Vi använder kakor på vår webbplats. Syftet med kakorna är att förbättra webbplatsens innehåll och prestanda. Med hjälp av responsen kan vi utveckla webbplatsen och erbjuda information som bättre möter stadsbornas behov. I kakinställningarna kan du läsa mer om vilka kakor som används samt godkänna eller hindra användningen av dem. Du kan även ändra kakinställningarna när du vill.",
+        "en": "We use cookies on our website. The purpose of cookies is to improve the content and performance of the website. With the feedback gained from cookies, we are able to develop the website and offer information that meets the needs of the city's residents better. In the cookie settings, you can find more information on the cookies used and accept or reject their use. You can also change the cookie settings whenever you wish."
+      },
+      "formHeading": {
+        "fi": "Tietoa sivustolla käytetyistä evästeistä",
+        "sv": "Information om kakor som används på webbplatsen",
+        "en": "About the cookies used on the website"
+      },
+      "formText": {
+        "fi": "Sivustolla käytetyt evästeet on luokiteltu käyttötarkoituksen mukaan. Alla voit lukea eri luokista ja sallia tai kieltää evästeiden käytön.",
+        "sv": "Kakorna som används på webbplatsen har klassificerats enligt användningsändamål. Du kan läsa om de olika klasserna och acceptera eller förbjuda användningen av kakor.",
+        "en": "The cookies used on the website have been classified according to their intended use. Below, you can read about the various categories and accept or reject the use of cookies."
+      },
+      "heading": {
+        "fi": "{{siteName}} käyttää evästeitä",
+        "sv": "{{siteName}} använder kakor",
+        "en": "{{siteName}} uses cookies"
+      },
+      "hideDetails": {
+        "fi": "Piilota yksityiskohdat",
+        "sv": "Stänga detaljer",
+        "en": "Hide details"
+      },
+      "hideCookieSettings": {
+        "fi": "Piilota evästeasetukset",
+        "sv": "Stänga kakinställningarna",
+        "en": "Hide cookie settings"
+      },
+      "highlightedGroup": {
+        "fi": "Sinun on hyväksyttävä tämä kategoria, jotta voit näyttää valitsemasi sisällön.",
+        "sv": "Du måste acceptera den här kategorin för att visa innehållet du har valt.",
+        "en": "You need to accept this category to display the content you have selected."
+      },
+      "highlightedGroupAria": {
+        "fi": "Hyvä tietää kategorialle: {{title}}",
+        "sv": "Bra att veta för kategorin: {{title}}",
+        "en": "Good to know for category: {{title}}"
+      },
+      "notificationAriaLabel": {
+        "fi": "Ilmoitus",
+        "sv": "Meddelande",
+        "en": "Annoucement"
+      },
+      "settingsSaved": {
+        "fi": "Asetukset tallennettu!",
+        "sv": "Inställningar sparade!",
+        "en": "Settings saved!"
+      },
+      "showCookieSettings": {
+        "fi": "Näytä evästeasetukset",
+        "sv": "Visa kakinställningarna",
+        "en": "Show cookie settings"
+      },
+      "showDetails": {
+        "fi": "Näytä yksityiskohdat",
+        "sv": "Visa detaljer",
+        "en": "Show details"
+      },
+      "storageType1": {
+        "fi": "Eväste",
+        "sv": "Kakan",
+        "en": "Cookie"
+      },
+      "storageType2": "localStorage",
+      "storageType3": "sessionStorage",
+      "storageType4": "IndexedDB",
+      "storageType5": "Cache Storage",
+      "tableHeadingsDescription": {
+        "fi": "Käyttötarkoitus",
+        "sv": "Användning",
+        "en": "Purpose of use"
+      },
+      "tableHeadingsExpiration": {
+        "fi": "Voimassaoloaika",
+        "sv": "Giltighetstid",
+        "en": "Period of validity"
+      },
+      "tableHeadingsHostName": {
+        "fi": "Evästeen asettaja",
+        "sv": "Den som lagrat kakan",
+        "en": "Cookie set by"
+      },
+      "tableHeadingsName": {
+        "fi": "Nimi",
+        "sv": "Namn",
+        "en": "Name"
+      },
+      "tableHeadingsType": {
+        "fi": "Tyyppi",
+        "sv": "Typ",
+        "en": "Type"
+      }
+    }
+  },
+  "urls": [
+    {
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%7D%7D",
+          "domain": "spouseprogram.fi",
+          "path": "/",
+          "expires": 1800333103,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [],
+      "headless": true,
+      "pause": false
+    },
+    {
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+          "domain": "spouseprogram.fi",
+          "path": "/",
+          "expires": 1800333103,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "headless": true,
+      "pause": false
+    },
+    {
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "actions": [],
+      "cookies": [
+        {
+          "name": "helfi-cookie-consents",
+          "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22914da907%22%2C%22timestamp%22%3A1791693103250%7D%2C%22marketing%22%3A%7B%22checksum%22%3A%2207210a77%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+          "domain": "spouseprogram.fi",
+          "path": "/",
+          "expires": 1800333103,
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Strict"
+        }
+      ],
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "headless": true,
+      "pause": false
+    }
+  ],
+  "inventoryItems": [
+    {
+      "name": "Frontpage with none accepted",
+      "groups": [],
+      "url": "https://spouseprogram.fi",
+      "frames": [
+        {
+          "frameUrl": "https://spouseprogram.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%7D%7D",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1800333103,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1791693115,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "e3061be859d2e1e382fa47733c0afadf",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1791693115,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "35",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229106,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693115,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229106,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693115,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "deny",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229106,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693115,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_marketing",
+              "value": "deny",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229106,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693115,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_marketing",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "spouseprogram.fi",
+              "hits": 55,
+              "certificate": {
+                "subjectName": "spouseprogram.fi",
+                "validFrom": 1786845091,
+                "validTo": 1794621090,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "webanalytics.digiaiiris.com",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.digiaiiris.com",
+                "validFrom": 1762128000,
+                "validTo": 1793231999,
+                "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1791693115,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    },
+    {
+      "name": "Frontpage with required accepted",
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "url": "https://spouseprogram.fi",
+      "frames": [
+        {
+          "frameUrl": "https://spouseprogram.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1800333103,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1791693127,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "5c4c5c7bee178d83b4c7d9a31804d166",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1791693127,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "35",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229118,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693127,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229118,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693127,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "deny",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229118,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693127,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_marketing",
+              "value": "deny",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229118,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693127,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_marketing",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "spouseprogram.fi",
+              "hits": 55,
+              "certificate": {
+                "subjectName": "spouseprogram.fi",
+                "validFrom": 1786845091,
+                "validTo": 1794621090,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "webanalytics.digiaiiris.com",
+              "hits": 3,
+              "certificate": {
+                "subjectName": "*.digiaiiris.com",
+                "validFrom": 1762128000,
+                "validTo": 1793231999,
+                "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1791693127,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    },
+    {
+      "name": "Frontpage with all accepted",
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "url": "https://spouseprogram.fi",
+      "frames": [
+        {
+          "frameUrl": "https://spouseprogram.fi/",
+          "cookies": [
+            {
+              "name": "helfi-cookie-consents",
+              "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22914da907%22%2C%22timestamp%22%3A1791693103250%7D%2C%22marketing%22%3A%7B%22checksum%22%3A%2207210a77%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1800333103,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Strict",
+              "frameTimestamp": 1791693139,
+              "expirationText": "100 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-cookie-consents",
+                    "host": "HDS CookieConsent",
+                    "storageType": 1,
+                    "expiration": "100 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "helfi-lb",
+              "value": "5c4c5c7bee178d83b4c7d9a31804d166",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": -1,
+              "httpOnly": true,
+              "secure": true,
+              "sameSite": "None",
+              "frameTimestamp": 1791693139,
+              "expirationText": "Session",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "helfi-lb",
+                    "host": ".hel.fi",
+                    "storageType": 1,
+                    "expiration": "Session",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "_pk_id.499.6e5d",
+              "value": "baac07a5bedec5fc.1791693131.",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1825648331,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "393 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "statistics",
+                    "required": false,
+                    "name": "_pk_id*",
+                    "host": "Matomo",
+                    "storageType": 1,
+                    "expiration": "13 months",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  },
+                  {
+                    "groupId": "statistics",
+                    "required": false,
+                    "name": "_pk_id.*",
+                    "host": "Matomo",
+                    "storageType": 1,
+                    "expiration": "393 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "_pk_ses.499.6e5d",
+              "value": "1",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1791694931,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "30 minutes",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "statistics",
+                    "required": false,
+                    "name": "_pk_ses*",
+                    "host": "Matomo",
+                    "storageType": 1,
+                    "expiration": "session",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  },
+                  {
+                    "groupId": "statistics",
+                    "required": false,
+                    "name": "_pk_ses.*",
+                    "host": "Matomo",
+                    "storageType": 1,
+                    "expiration": "1 hour",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  }
+                ]
+              }
+            },
+            {
+              "name": "mtm_cookie_consent",
+              "value": "1791693131084",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823247131,
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "mtm_cookie_consent",
+                    "host": "Matomo",
+                    "storageType": 1,
+                    "expiration": "1 year",
+                    "hostMatches": false,
+                    "expiresMatches": false
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_policy_id",
+              "value": "35",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229131,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_policy_id",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_functional",
+              "value": "allow",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229131,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_functional",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_statistics",
+              "value": "allow",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229131,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_statistics",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            },
+            {
+              "name": "cmplz_marketing",
+              "value": "allow",
+              "domain": "spouseprogram.fi",
+              "path": "/",
+              "expires": 1823229131,
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax",
+              "frameTimestamp": 1791693139,
+              "expirationText": "365 days",
+              "compliance": {
+                "compliant": true,
+                "matchingSettings": [
+                  {
+                    "groupId": "functional",
+                    "required": true,
+                    "name": "cmplz_marketing",
+                    "host": "Complianz",
+                    "storageType": 1,
+                    "expiration": "365 days",
+                    "hostMatches": false,
+                    "expiresMatches": true
+                  }
+                ]
+              }
+            }
+          ],
+          "localStorage": [],
+          "sessionStorage": [],
+          "indexedDB": [],
+          "cacheStorage": [],
+          "frameDomains": [
+            {
+              "domain": "spouseprogram.fi",
+              "hits": 55,
+              "certificate": {
+                "subjectName": "spouseprogram.fi",
+                "validFrom": 1786845091,
+                "validTo": 1794621090,
+                "issuer": "YR2",
+                "protocol": "TLS 1.3"
+              }
+            },
+            {
+              "domain": "webanalytics.digiaiiris.com",
+              "hits": 4,
+              "certificate": {
+                "subjectName": "*.digiaiiris.com",
+                "validFrom": 1762128000,
+                "validTo": 1793231999,
+                "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "protocol": "TLS 1.3"
+              }
+            }
+          ],
+          "frameTimestamp": 1791693139,
+          "compliant": true
+        }
+      ],
+      "allCompliant": true
+    }
+  ],
+  "foundItems": [
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%7D%7D",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1800333103,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1791693115,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "e3061be859d2e1e382fa47733c0afadf",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1791693115,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "35",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229106,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693115,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229106,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693115,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "deny",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229106,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693115,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_marketing",
+      "item": {
+        "name": "cmplz_marketing",
+        "value": "deny",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229106,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693115,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_marketing",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [],
+      "name": "Frontpage with none accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_marketing",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1800333103,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1791693127,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "5c4c5c7bee178d83b4c7d9a31804d166",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1791693127,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "35",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229118,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693127,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229118,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693127,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "deny",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229118,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693127,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_marketing",
+      "item": {
+        "name": "cmplz_marketing",
+        "value": "deny",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229118,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693127,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_marketing",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional",
+        "functional"
+      ],
+      "name": "Frontpage with required accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_marketing",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-cookie-consents",
+      "item": {
+        "name": "helfi-cookie-consents",
+        "value": "%7B%22groups%22%3A%7B%22functional%22%3A%7B%22checksum%22%3A%22e236c0fc%22%2C%22timestamp%22%3A1791693103250%7D%2C%22statistics%22%3A%7B%22checksum%22%3A%22914da907%22%2C%22timestamp%22%3A1791693103250%7D%2C%22marketing%22%3A%7B%22checksum%22%3A%2207210a77%22%2C%22timestamp%22%3A1791693103250%7D%7D%7D",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1800333103,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "frameTimestamp": 1791693139,
+        "expirationText": "100 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-cookie-consents",
+              "host": "HDS CookieConsent",
+              "storageType": 1,
+              "expiration": "100 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-cookie-consents",
+            "host": "HDS CookieConsent",
+            "storageType": 1,
+            "expiration": "100 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "helfi-lb",
+      "item": {
+        "name": "helfi-lb",
+        "value": "5c4c5c7bee178d83b4c7d9a31804d166",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "frameTimestamp": 1791693139,
+        "expirationText": "Session",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "helfi-lb",
+              "host": ".hel.fi",
+              "storageType": 1,
+              "expiration": "Session",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "helfi-lb",
+            "host": ".hel.fi",
+            "storageType": 1,
+            "expiration": "Session",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "_pk_id.499.6e5d",
+      "item": {
+        "name": "_pk_id.499.6e5d",
+        "value": "baac07a5bedec5fc.1791693131.",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1825648331,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "393 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "statistics",
+              "required": false,
+              "name": "_pk_id*",
+              "host": "Matomo",
+              "storageType": 1,
+              "expiration": "13 months",
+              "hostMatches": false,
+              "expiresMatches": false
+            },
+            {
+              "groupId": "statistics",
+              "required": false,
+              "name": "_pk_id.*",
+              "host": "Matomo",
+              "storageType": 1,
+              "expiration": "393 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "statistics",
+            "required": false,
+            "name": "_pk_id*",
+            "host": "Matomo",
+            "storageType": 1,
+            "expiration": "13 months",
+            "hostMatches": false,
+            "expiresMatches": false
+          },
+          {
+            "groupId": "statistics",
+            "required": false,
+            "name": "_pk_id.*",
+            "host": "Matomo",
+            "storageType": 1,
+            "expiration": "393 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "_pk_ses.499.6e5d",
+      "item": {
+        "name": "_pk_ses.499.6e5d",
+        "value": "1",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1791694931,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "30 minutes",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "statistics",
+              "required": false,
+              "name": "_pk_ses*",
+              "host": "Matomo",
+              "storageType": 1,
+              "expiration": "session",
+              "hostMatches": false,
+              "expiresMatches": false
+            },
+            {
+              "groupId": "statistics",
+              "required": false,
+              "name": "_pk_ses.*",
+              "host": "Matomo",
+              "storageType": 1,
+              "expiration": "1 hour",
+              "hostMatches": false,
+              "expiresMatches": false
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "statistics",
+            "required": false,
+            "name": "_pk_ses*",
+            "host": "Matomo",
+            "storageType": 1,
+            "expiration": "session",
+            "hostMatches": false,
+            "expiresMatches": false
+          },
+          {
+            "groupId": "statistics",
+            "required": false,
+            "name": "_pk_ses.*",
+            "host": "Matomo",
+            "storageType": 1,
+            "expiration": "1 hour",
+            "hostMatches": false,
+            "expiresMatches": false
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "mtm_cookie_consent",
+      "item": {
+        "name": "mtm_cookie_consent",
+        "value": "1791693131084",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823247131,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "mtm_cookie_consent",
+              "host": "Matomo",
+              "storageType": 1,
+              "expiration": "1 year",
+              "hostMatches": false,
+              "expiresMatches": false
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "mtm_cookie_consent",
+            "host": "Matomo",
+            "storageType": 1,
+            "expiration": "1 year",
+            "hostMatches": false,
+            "expiresMatches": false
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_policy_id",
+      "item": {
+        "name": "cmplz_policy_id",
+        "value": "35",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229131,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_policy_id",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_policy_id",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_functional",
+      "item": {
+        "name": "cmplz_functional",
+        "value": "allow",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229131,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_functional",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_functional",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_statistics",
+      "item": {
+        "name": "cmplz_statistics",
+        "value": "allow",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229131,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_statistics",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_statistics",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    },
+    {
+      "storageType": 1,
+      "itemId": "cmplz_marketing",
+      "item": {
+        "name": "cmplz_marketing",
+        "value": "allow",
+        "domain": "spouseprogram.fi",
+        "path": "/",
+        "expires": 1823229131,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "frameTimestamp": 1791693139,
+        "expirationText": "365 days",
+        "compliance": {
+          "compliant": true,
+          "matchingSettings": [
+            {
+              "groupId": "functional",
+              "required": true,
+              "name": "cmplz_marketing",
+              "host": "Complianz",
+              "storageType": 1,
+              "expiration": "365 days",
+              "hostMatches": false,
+              "expiresMatches": true
+            }
+          ]
+        }
+      },
+      "groups": [
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "preferences",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "functional",
+        "statistics",
+        "marketing"
+      ],
+      "name": "Frontpage with all accepted",
+      "url": "https://spouseprogram.fi",
+      "frameUrl": "https://spouseprogram.fi/",
+      "compliant": true,
+      "complianceData": {
+        "compliant": true,
+        "matchingSettings": [
+          {
+            "groupId": "functional",
+            "required": true,
+            "name": "cmplz_marketing",
+            "host": "Complianz",
+            "storageType": 1,
+            "expiration": "365 days",
+            "hostMatches": false,
+            "expiresMatches": true
+          }
+        ]
+      }
+    }
+  ],
+  "siteSettingsFlat": [
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "WP_PREFERENCES_USER_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "persistent"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_user_data",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wpEmojiSettingsSupports",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_functional",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_statistics",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_policy_id",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_marketing",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_preferences",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_consented_services",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_banner-status",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wf_loginalerted_*",
+      "host": "Wordfence",
+      "storageType": 1,
+      "expiration": "persistent"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helfi-lb",
+      "host": ".hel.fi",
+      "storageType": 1,
+      "expiration": "Session",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "helfi-cookie-consents",
+      "host": "HDS CookieConsent",
+      "storageType": 1,
+      "expiration": "100 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_test_cookie",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-postpass_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "10 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp_lang",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_logged_in_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wordpress_sec_*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-api-schema-model",
+      "host": "WordPress",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "WP_DATA_USER_*",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "WP_PREFERENCES_USER_*",
+      "host": "WordPress",
+      "storageType": 2,
+      "expiration": "-"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-settings-time-*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 year"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-settings-*",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 year"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-autosave-*",
+      "host": "WordPress",
+      "storageType": 3,
+      "expiration": "Session"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "wp-saving-post",
+      "host": "WordPress",
+      "storageType": 1,
+      "expiration": "1 day"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "cmplz_unknown",
+      "host": "Complianz",
+      "storageType": 1,
+      "expiration": "365 days"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "mtm_cookie_consent",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "1 year",
+      "hostMatches": false,
+      "expiresMatches": false
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "news-visited",
+      "host": "Spouseprogram",
+      "storageType": 2,
+      "expiration": "persistent"
+    },
+    {
+      "groupId": "functional",
+      "required": true,
+      "name": "hidenotification",
+      "host": "Spouseprogram",
+      "storageType": 2,
+      "expiration": "persistent"
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_id*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "13 months",
+      "hostMatches": false,
+      "expiresMatches": false
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_ses*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "session",
+      "hostMatches": false,
+      "expiresMatches": false
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_id.*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "393 days",
+      "hostMatches": false,
+      "expiresMatches": true
+    },
+    {
+      "groupId": "statistics",
+      "required": false,
+      "name": "_pk_ses.*",
+      "host": "Matomo",
+      "storageType": 1,
+      "expiration": "1 hour",
+      "hostMatches": false,
+      "expiresMatches": false
+    },
+    {
+      "groupId": "marketing",
+      "required": false,
+      "name": "GPS",
+      "host": "YouTube",
+      "storageType": 1,
+      "expiration": "session"
+    },
+    {
+      "groupId": "marketing",
+      "required": false,
+      "name": "VISITOR_INFO1_LIVE",
+      "host": "YouTube",
+      "storageType": 1,
+      "expiration": "6 months"
+    },
+    {
+      "groupId": "marketing",
+      "required": false,
+      "name": "YSC",
+      "host": "YouTube",
+      "storageType": 1,
+      "expiration": "session"
+    },
+    {
+      "groupId": "marketing",
+      "required": false,
+      "name": "PREF",
+      "host": "YouTube",
+      "storageType": 1,
+      "expiration": "8 months"
+    }
+  ],
+  "timing": {
+    "Processing time": {
+      "start": 225346.859954,
+      "end": 265672.385716,
+      "elapsed": 40325.525761999976,
+      "formattedElapsed": "40.326s"
+    },
+    "Fetching tracking domains": {
+      "start": 225346.861077,
+      "end": 225510.13479,
+      "elapsed": 163.27371300000232,
+      "formattedElapsed": "0.163s"
+    },
+    "Fetching checksums and siteSettings": {
+      "start": 225348.347488,
+      "end": 229108.984957,
+      "elapsed": 3760.6374690000084,
+      "formattedElapsed": "3.761s"
+    },
+    "URL generation": {
+      "start": 229109.045671,
+      "end": 229109.472599,
+      "elapsed": 0.42692800000077114,
+      "formattedElapsed": "0.000s"
+    },
+    "Data collection": {
+      "start": 229109.499329,
+      "end": 265672.326134,
+      "elapsed": 36562.82680499996,
+      "formattedElapsed": "36.563s"
+    },
+    " - \"Frontpage with none accepted\"": {
+      "start": 229160.770202,
+      "end": 241121.610688,
+      "elapsed": 11960.840485999972,
+      "formattedElapsed": "11.961s"
+    },
+    " - \"Frontpage with required accepted\"": {
+      "start": 241198.69164,
+      "end": 253245.767191,
+      "elapsed": 12047.075550999987,
+      "formattedElapsed": "12.047s"
+    },
+    " - \"Frontpage with all accepted\"": {
+      "start": 253323.617598,
+      "end": 265648.974408,
+      "elapsed": 12325.356809999997,
+      "formattedElapsed": "12.325s"
+    },
+    "Compliance checking": {
+      "start": 265672.402217,
+      "end": 265674.421006,
+      "elapsed": 2.0187889999942854,
+      "formattedElapsed": "0.002s"
+    }
+  }
+}

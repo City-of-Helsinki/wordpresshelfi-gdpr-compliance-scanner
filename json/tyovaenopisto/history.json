@@ -376,5 +376,19 @@
       "siteSettingsFlat": 64
     },
     "filename": "report-tyovaenopisto-2026-10-10T04:34:08.417Z.json"
+  },
+  {
+    "timeStamp": "2026-10-11T04:35:36.745Z",
+    "summary": {
+      "total": 10,
+      "compliant": 10,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "47.715s",
+      "siteSettingsFlat": 64
+    },
+    "filename": "report-tyovaenopisto-2026-10-11T04:35:36.745Z.json"
   }
 ]

@@ -320,5 +320,19 @@
       "siteSettingsFlat": 64
     },
     "filename": "report-stadinao-2026-10-10T04:31:46.337Z.json"
+  },
+  {
+    "timeStamp": "2026-10-11T04:33:23.257Z",
+    "summary": {
+      "total": 20,
+      "compliant": 20,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "1m 2.39s",
+      "siteSettingsFlat": 64
+    },
+    "filename": "report-stadinao-2026-10-11T04:33:23.257Z.json"
   }
 ]
