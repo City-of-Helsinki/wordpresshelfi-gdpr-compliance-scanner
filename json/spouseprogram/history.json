@@ -152,5 +152,19 @@
       "siteSettingsFlat": 37
     },
     "filename": "report-spouseprogram-2026-10-17T04:26:16.726Z.json"
+  },
+  {
+    "timeStamp": "2026-10-18T04:26:51.323Z",
+    "summary": {
+      "total": 21,
+      "compliant": 21,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "36.178s",
+      "siteSettingsFlat": 37
+    },
+    "filename": "report-spouseprogram-2026-10-18T04:26:51.323Z.json"
   }
 ]
