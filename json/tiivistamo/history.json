@@ -180,5 +180,19 @@
       "siteSettingsFlat": 24
     },
     "filename": "report-tiivistamo-2026-10-19T04:33:02.031Z.json"
+  },
+  {
+    "timeStamp": "2026-10-20T04:29:49.908Z",
+    "summary": {
+      "total": 18,
+      "compliant": 18,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "39.230s",
+      "siteSettingsFlat": 24
+    },
+    "filename": "report-tiivistamo-2026-10-20T04:29:49.908Z.json"
   }
 ]
