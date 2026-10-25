@@ -236,5 +236,19 @@
       "siteSettingsFlat": 27
     },
     "filename": "report-hnry-2026-10-24T04:25:35.450Z.json"
+  },
+  {
+    "timeStamp": "2026-10-25T04:26:48.297Z",
+    "summary": {
+      "total": 25,
+      "compliant": 25,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "36.083s",
+      "siteSettingsFlat": 27
+    },
+    "filename": "report-hnry-2026-10-25T04:26:48.297Z.json"
   }
 ]
