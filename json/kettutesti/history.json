@@ -460,5 +460,19 @@
       "siteSettingsFlat": 29
     },
     "filename": "report-kettutesti-2026-11-13T04:19:45.814Z.json"
+  },
+  {
+    "timeStamp": "2026-11-14T04:18:13.598Z",
+    "summary": {
+      "total": 18,
+      "compliant": 18,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "36.220s",
+      "siteSettingsFlat": 29
+    },
+    "filename": "report-kettutesti-2026-11-14T04:18:13.598Z.json"
   }
 ]
