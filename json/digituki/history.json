@@ -502,5 +502,19 @@
       "siteSettingsFlat": 96
     },
     "filename": "report-digituki-2026-11-16T04:19:42.646Z.json"
+  },
+  {
+    "timeStamp": "2026-11-17T04:17:59.954Z",
+    "summary": {
+      "total": 42,
+      "compliant": 36,
+      "nonCompliant": 6,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "51.210s",
+      "siteSettingsFlat": 96
+    },
+    "filename": "report-digituki-2026-11-17T04:17:59.954Z.json"
   }
 ]
