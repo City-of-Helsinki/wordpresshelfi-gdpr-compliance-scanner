@@ -936,5 +936,19 @@
       "siteSettingsFlat": 64
     },
     "filename": "report-arbis-2026-11-24T04:17:01.143Z.json"
+  },
+  {
+    "timeStamp": "2026-11-25T04:17:06.475Z",
+    "summary": {
+      "total": 12,
+      "compliant": 12,
+      "nonCompliant": 0,
+      "warnings": 0,
+      "urls": 3,
+      "failedUrls": 0,
+      "timing": "40.085s",
+      "siteSettingsFlat": 64
+    },
+    "filename": "report-arbis-2026-11-25T04:17:06.475Z.json"
   }
 ]
