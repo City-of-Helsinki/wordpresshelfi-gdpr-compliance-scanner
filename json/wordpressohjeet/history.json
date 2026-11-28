@@ -2168,5 +2168,19 @@
       "siteSettingsFlat": 64
     },
     "filename": "report-wordpressohjeet-2026-11-27T04:25:04.419Z.json"
+  },
+  {
+    "timeStamp": "2026-11-28T04:24:29.832Z",
+    "summary": {
+      "total": 53,
+      "compliant": 52,
+      "nonCompliant": 1,
+      "warnings": 0,
+      "urls": 6,
+      "failedUrls": 0,
+      "timing": "2m 13.04s",
+      "siteSettingsFlat": 64
+    },
+    "filename": "report-wordpressohjeet-2026-11-28T04:24:29.832Z.json"
   }
 ]
